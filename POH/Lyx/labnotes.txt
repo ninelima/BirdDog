@@ -1,0 +1,16 @@
+447 UL SCDI
+full power 20 lit/hr
+75 % continuous 11 l/h
+spec 500g/kWh
+
+prop turns anticlockwise when faced from the cockpit
+
+T/O 6800 (max 5 min)
+Cruise 6500 
+Idle 2000 rpm
+
+447 UL SCDI 29.5 kW
+CHT 260 degC
+EGT 460 - 580 (650max)  ... check this? same as 503 582?
+
+
