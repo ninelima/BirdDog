@@ -239,7 +239,7 @@ Manufacturer
 \begin_inset Text
 
 \begin_layout Plain Layout
-BOSLUIS Aerospace
+BoSluis Aerospace
 \end_layout
 
 \end_inset
@@ -2029,24 +2029,24 @@ The HiMax is fitted with a simple sprung aluminium landing gear with the
 \end_layout
 
 \begin_layout Standard
-Main wheels are 500x5 Cleveland Aircraft Products units with disc type brakes
- and 500x5 tires with a four ply rating.
- The tail wheel is a <Cleveland 400x5 model fitted with a 400x5 tire with
- a four ply rating>.
- All tires have tubes<?>.
+Main wheels are 400x6 Matco (?) units with drum type brakes and 500x5 tires
+ with a four ply rating.
+ The tail wheel is a <Solid Phenolic>.The main wheel tires are tubeless.
  (See Section IV, Sub Section II for tire service).
 \end_layout
 
 \begin_layout Standard
-Main gear brakes are actuated by toe brake pedals on the front rudder pedals.
- Hydraulic brake cylinders <?> located in front of the rudder pedals are
- readily accessible in the cockpit for servicing.
- (See Section IV, Sub Section IV for brake service).
+Main gear brakes are actuated by toe brake pedals on the front rudder pedals.Brak
+es are cable actuated.
+ <Hydraulic brake cylinders <?> located in front of the rudder pedals are
+ readily accessible in the cockpit for servicing.> (See Section IV, Sub Section
+ IV for brake service).
 \end_layout
 
 \begin_layout Standard
-The tail wheel is free castoring <?> and the aircraft is steered with differenti
-al braking.
+The tail wheel is steerable  and the aircraft is steered with with the rudder
+ pedals.
+ 
 \end_layout
 
 \begin_layout Section
@@ -2454,6 +2454,10 @@ IX.
  Fuel Injection40XIV.
  Low Power Low RPM Cruise41XV.
  Flight Operations42
+\end_layout
+
+\begin_layout Part*
+OPERATING INSTRUCTIONS
 \end_layout
 
 \begin_layout Section
@@ -3864,7 +3868,7 @@ V.
 
 \begin_layout Standard
 In jacking the HiMax up for landing gear and other service, the Jack Kit
- (available through the BOSLUIS Distributor Service Department) should be
+ (available through the BoSluis Distributor Service Department) should be
  used.
  This kit includes two hydraulic jacks and a tail support; the jacks are
  placed under <where?> and the tail support attached to the tail skid.
@@ -3977,18 +3981,31 @@ VI.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 The hydraulic system is filled by adding fluid to the reservoir, located
  on the firewall.
  Only petroleum base hydraulic fluid, MIL-PRF-5606, should be used.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 To add fluid to the system, remove the cap from the filler neck and fill
  the system completely while holding the filler tube extension level.
  Then turn the elbow on the filler tube down until the excess oil has drained
  out.
  (See separate instructions for filling, cleaning and bleeding the complete
  hydraulic system).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No Hydraulic used
 \end_layout
 
 \begin_layout Section
@@ -4123,7 +4140,7 @@ The serial number plate on the HiMax is located against the aft baggage
 \end_layout
 
 \begin_layout Part
-WEIGHT AND BALANCE DATA
+SECTION FIVE
 \end_layout
 
 \begin_layout Standard
@@ -4154,11 +4171,7 @@ status open
 \begin_layout Plain Layout
 For all TEAM aircraft, the C.G.
  should be between 11.3 and 16.2 inches, or 21 % to 30%.
- 
-\end_layout
-
-\begin_layout Plain Layout
-Optimum flight characteristics have been obtained with the C.G.
+ Optimum flight characteristics have been obtained with the C.G.
  at approximately 28-29%.
 \end_layout
 
@@ -4196,15 +4209,15 @@ Wing LE: 0 cm aft of Datum
 \end_layout
 
 \begin_layout Standard
-Main wheel right: 237 cm aft of Datum
+Main wheel right: nnn? cm aft of Datum
 \end_layout
 
 \begin_layout Standard
-Main wheel left: 237 cm aft of Datum
+Main wheel left: nnn? cm aft of Datum
 \end_layout
 
 \begin_layout Standard
-Nose Wheel: 82 cm aft of Datum
+Tail Wheel: nnn? cm aft of Datum
 \end_layout
 
 \begin_layout Standard
@@ -4213,14 +4226,6 @@ Fuel ??? cm aft of Datum
 
 \begin_layout Standard
 Pilot: ??? cm aft of Datum
-\end_layout
-
-\begin_layout Standard
-Passenger: ??? cm aft of Datum
-\end_layout
-
-\begin_layout Standard
-Forward Baggage: ???9 cm aft of Datum
 \end_layout
 
 \begin_layout Standard
@@ -4475,10 +4480,10 @@ Datum: On the wing leading edge (LE)
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="4">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="20col%">
+<column alignment="left" valignment="top" width="20col%">
 <column alignment="left" valignment="top" width="40col%">
-<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="20col%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -4582,7 +4587,7 @@ Limited aerobatics
 \begin_inset Text
 
 \begin_layout Plain Layout
-Wingover / Lazy-8Chandelle
+Wingover / Lazy-8 / Chandelle
 \end_layout
 
 \end_inset
@@ -4611,7 +4616,7 @@ Acrobatic
 \begin_inset Text
 
 \begin_layout Plain Layout
-Not permitted
+None permitted
 \end_layout
 
 \end_inset
@@ -4786,191 +4791,195 @@ Circuit breakers CHECK
 Avionics OFF
 \end_layout
 
-\begin_layout Subsection*
-STARTING ENGINES - COLD
+\begin_layout Section*
+STARTING ENGINES
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
+COLD START
+\end_layout
+
+\begin_layout Itemize
 Master ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Magnetos ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Cowl flaps SET
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Throttle FULL OPEN
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Pitch FULL FINE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture FULL RICH
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Fuel pump ON 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 until flow indication) 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture IDLE CUT-OFF 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Fuel pump OFF
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Throttle 1/4 OPEN
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Propeller CLEAR
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Starter ENGAGE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture ADVANCE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Oil pressure CHECK
 \end_layout
 
 \begin_layout Subsection*
-STARTING ENGINES - HOT
+HOT START
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Master ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Magnetos ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Cowl flaps SET
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Throttle 1/4 OPEN
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Pitch FULL FINE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture IDLE CUT-OFF
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Propeller CLEAR
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Starter ENGAGE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture ADVANCE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Oil pressure CHECK
 \end_layout
 
 \begin_layout Subsection*
-STARTING ENGINES - FLOODED
+FLOODED START
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Master ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Magnetos ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Cowl flaps SET
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Throttle FULL OPEN
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Pitch FULL FINE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture IDLE CUT-OFF
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Fuel pump OFF
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Propeller CLEAR
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Starter ENGAGE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Throttle RETARD
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture ADVANCE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Oil pressure CHECK
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 TAXI
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Radio SET
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Park brake OFF
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Brakes TEST
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Lights AS REQUIRED
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Flight Instruments CHECK
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 PRE-TAKEOFF
 \end_layout
 
@@ -5080,7 +5089,7 @@ Flap - As required
 Final - Fuel off, Mayday call
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 TAKEOFF
 \end_layout
 
@@ -5126,7 +5135,7 @@ Throttle - 6800 RPM
 Fuel pump OFF
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 AIRFIELD JOINING
 \end_layout
 
@@ -5162,7 +5171,7 @@ Security Harnesses SECURE
 Speeds REVIEW
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 CIRCUIT
 \end_layout
 
@@ -5208,7 +5217,7 @@ Full Flap 35 kts
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Section*
 FINAL APPROACH
 \end_layout
 
@@ -5224,7 +5233,7 @@ Undercarriage DOWN and WELDED
 Flaps FULL
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 POST LANDING
 \end_layout
 
@@ -5236,7 +5245,7 @@ Flaps IDENTIFY LEVER and RETRACT
 Fuel pump OFF
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 PARKING
 \end_layout
 
