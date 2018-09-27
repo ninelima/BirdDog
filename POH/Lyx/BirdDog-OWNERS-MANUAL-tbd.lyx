@@ -5,15 +5,25 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\usepackage{chngcntr}
+\counterwithin*{section}{part}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
+\begin_local_layout
+Format 66
+Counter section
+         Within               part
+End 
+\end_local_layout
 \language english
 \language_package default
 \inputencoding auto
 \fontencoding global
 \font_roman "default" "Haettenschweiler"
 \font_sans "default" "default"
-\font_typewriter "default" "default"
+\font_typewriter "default" "Consolas"
 \font_math "auto" "auto"
 \font_default_family ttdefault
 \use_non_tex_fonts false
@@ -59,7 +69,7 @@
 \end_index
 \topmargin 10pheight%
 \secnumdepth 3
-\tocdepth 2
+\tocdepth 3
 \paragraph_separation skip
 \defskip smallskip
 \is_math_indent 0
@@ -79,6 +89,22 @@
 \begin_body
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 \align center
 
@@ -92,6 +118,13 @@ OWNERS HANDBOOK FOR OPERATION AND MAINTENANCE
 
 \size largest
 OF TEAM 1700R HIMAX AIRPLANE
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -128,6 +161,13 @@ MORE FULLY EXPLAIN YOUR HIMAX'S OPERATION THAN IS PERMISSIBLE TO SET FORTH
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Published by:
 \end_layout
 
@@ -136,7 +176,7 @@ PUBLICATIONS DEPARTMENT
 \end_layout
 
 \begin_layout Standard
-BoSluis Aerospace
+BOSLUIS Aerospace
 \end_layout
 
 \begin_layout Standard
@@ -157,6 +197,10 @@ Issued:
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
 \begin_inset Float figure
 placement h
 wide false
@@ -164,6 +208,8 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename himaxes_collage.JPG
 	width 100col%
@@ -183,6 +229,10 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -205,6 +255,35 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 DESIGN FEATURES
 \end_layout
@@ -221,7 +300,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="40" columns="2">
+<lyxtabular version="3" rows="41" columns="2">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="50col%">
@@ -379,7 +458,7 @@ Engine
 \begin_inset Text
 
 \begin_layout Plain Layout
-Rotax 447 (48kW)
+Rotax 503 UL DCDI(37 kW)
 \end_layout
 
 \end_inset
@@ -419,7 +498,27 @@ CHT max
 \begin_inset Text
 
 \begin_layout Plain Layout
-260 ºC ?
+180-220 (max 250) ºC 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+EGT max
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+460-580 (max 650) ºC 
 \end_layout
 
 \end_inset
@@ -559,7 +658,7 @@ Tires
 \begin_inset Text
 
 \begin_layout Plain Layout
-?.00x? (main), ?.00x? (tail)
+4.00x6 (main), ?.00? (tail)
 \end_layout
 
 \end_inset
@@ -579,7 +678,7 @@ Airfoil
 \begin_inset Text
 
 \begin_layout Plain Layout
-Clark-Y
+Clark-Y (Modified)
 \end_layout
 
 \end_inset
@@ -659,7 +758,7 @@ Power loading
 \begin_inset Text
 
 \begin_layout Plain Layout
-?? kg/hp (12.4 lbs/hp)
+7.43 kg/kW (12.4 lbs/hp)
 \end_layout
 
 \end_inset
@@ -819,7 +918,7 @@ Fuel Flow (@ 75%)
 \begin_inset Text
 
 \begin_layout Plain Layout
-11 lit/hr
+15 lit/hr
 \end_layout
 
 \end_inset
@@ -839,7 +938,7 @@ Fuel Flow (@ 100%)
 \begin_inset Text
 
 \begin_layout Plain Layout
-20 lit/hr
+25 lit/hr
 \end_layout
 
 \end_inset
@@ -1073,7 +1172,7 @@ An aluminum member within the fuselage connects the lower strut fittings.
 LIMITATIONS
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 Operating Speeds 
 \end_layout
 
@@ -1485,7 +1584,7 @@ Speeds checked against POH
 VNE vs ALTITUDE
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 AIRSPEED INDICATOR MARKINGS
 \end_layout
 
@@ -1713,7 +1812,7 @@ The EFIS airspeed tape markings are to be revised to incorporate actual
  position errors once these have been determined.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 FUEL QUANTITY DATA (liters)
 \end_layout
 
@@ -1885,18 +1984,17 @@ Internal
 \end_layout
 
 \begin_layout Section
-II.
- Engine and Propeller
+Engine and Propeller
 \end_layout
 
 \begin_layout Standard
-HiMAX model 1700R is fitted with a Rotax 447 with 2.58:1 B-type gearbox engine.
+HiMax model 1700R is fitted with a Rotax 503 with 2.58:1 E-type gearbox engine.
  
 \end_layout
 
 \begin_layout Standard
-Rotax 447: two cycle, two cylinder in-line engine rated at 42 horsepower
- with dual carburetors or 40 horsepower with a single carburetor.
+Rotax 503: two cycle, two cylinder in-line engine rated at 37 kW (56 HP)
+ with dual carburetors.
  
 \end_layout
 
@@ -1910,24 +2008,24 @@ Standard engine controls are the throttle and magneto switch in the cockpit,
 \end_layout
 
 \begin_layout Standard
-The Rotax 447 engine in the HiMax produces 29.5 kW (42 HP) at 6800 RPM.
+The Rotax 447 engine in the HiMax produces 37 kW (56 HP) at 6800 RPM.
  This engine can use 91/96 MOGAS or 100 LL AVGAS fuel.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-The engine on the standard HiMax is equipped with a geared starter, alternator,
- two magnetos, shielded harness, shielded spark plugs, diaphragm fuel pump,
- tachometer pickups, and thermostats for oil, cylinder head and exhaust
- gas temperatures.
+503 Compression ratio 10.8:1.
 \end_layout
 
-\end_inset
+\begin_layout Standard
+Integrated AC generator (12V 170W) with external rectifier-regulator.
+ 
+\end_layout
 
-
+\begin_layout Standard
+The engine on the standard HiMax is equipped with an electric starter, alternato
+r, two magnetos, shielded harness, shielded spark plugs, diaphragm fuel
+ pump, tachometer pickups, and thermostats for oil, cylinder head and exhaust
+ gas temperatures.
 \end_layout
 
 \begin_layout Standard
@@ -1941,54 +2039,44 @@ Engine mounts are of steel tubing construction and incorporate vibration
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename engine1.png
+	lyxscale 25
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 The exhaust system <some words here>.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align right
-\begin_inset Graphics
-	filename Rotax_447_pic.png
-	width 80col%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The propeller on the HiMax is a Bolly Optima Series 3, ???? bolt, ??" pitch
+The propeller on the HiMax is a Bolly Optima Series 3, 6 bolt, Ground adjustable
+ pitch.
  Part Number = ???.
  
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename gascolator-relay.png
+	lyxscale 25
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-III.
- Fuselage and Wing Structures
+Fuselage and Wing Structures
 \end_layout
 
 \begin_layout Standard
@@ -2018,8 +2106,7 @@ The primary bending loads of the wing are carried by the single main spar
 \end_layout
 
 \begin_layout Section
-IV.
- Landing Gear
+Landing Gear
 \end_layout
 
 \begin_layout Standard
@@ -2029,29 +2116,40 @@ The HiMax is fitted with a simple sprung aluminium landing gear with the
 \end_layout
 
 \begin_layout Standard
-Main wheels are 500x5 Cleveland Aircraft Products units with disc type brakes
- and 500x5 tires with a four ply rating.
- The tail wheel is a <Cleveland 400x5 model fitted with a 400x5 tire with
- a four ply rating>.
- All tires have tubes<?>.
+Main wheels are 400x6 Matco (?) units with drum type brakes and 500x5 tires
+ with a four ply rating.
+ The tail wheel is a <Solid Phenolic>.The main wheel tires are tubeless.
  (See Section IV, Sub Section II for tire service).
 \end_layout
 
 \begin_layout Standard
 Main gear brakes are actuated by toe brake pedals on the front rudder pedals.
- Hydraulic brake cylinders <?> located in front of the rudder pedals are
- readily accessible in the cockpit for servicing.
- (See Section IV, Sub Section IV for brake service).
+ Brakes are cable actuated.
+ <Hydraulic brake cylinders <?> located in front of the rudder pedals are
+ readily accessible in the cockpit for servicing.> (See Section IV, Sub Section
+ IV for brake service).
 \end_layout
 
 \begin_layout Standard
-The tail wheel is free castoring <?> and the aircraft is steered with differenti
-al braking.
+The tail wheel is steerable  and the aircraft is steered with with the rudder
+ pedals.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename landing-gear.png
+	width 60col%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
-V.
- Hydraulic System
+Hydraulic System
 \end_layout
 
 \begin_layout Standard
@@ -2074,8 +2172,7 @@ The hydraulic system is used for the individual actuation of the Cleveland
 \end_layout
 
 \begin_layout Section
-VI.
- Control System and Surfaces
+Control System and Surfaces
 \end_layout
 
 \begin_layout Standard
@@ -2092,9 +2189,21 @@ Conventional 3-axis controls are fitted with the elevator operated by a
  
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename tail.png
+	lyxscale 50
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-VII.
- Fuel System
+Fuel System
 \end_layout
 
 \begin_layout Standard
@@ -2120,10 +2229,10 @@ For normal operation, fuel is pumped by the engine driven pump from the
 \end_layout
 
 \begin_layout Standard
-> 
-\end_layout
+\begin_inset Note Note
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 An electric auxiliary fuel pump, located on the left side of the fuselage
  floor directly behind the engine compartment firewall, is installed in
  by-pass fuel lines between the tanks and the engine driven pump.
@@ -2135,38 +2244,57 @@ An electric auxiliary fuel pump, located on the left side of the fuselage
  loss due to pump failure at critical times.
 \end_layout
 
-\begin_layout Standard
->
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 If engine driven pump fails, the electric pump to that engine can be turned
  on to supply the fuel.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 A replaceable fuel filter is installed between the fuel selector valve and
  the auxiliary fuel pump.
  The fuel filter is mounted on the left side of the fuselage below the console.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Fuel selector and boost pump arrangement 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Fuel can thus be used from one tank or the other, by switching the main
  valve control to the desired tank.
  For all normal operation, it is recommended that the electric fuel pump
  be switched on during tank changeover.
 \end_layout
 
-\begin_layout Standard
-The fuel valve control is located below the left instrument console.
+\end_inset
+
+The fuel valve control is located 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+below the left instrument console
+\end_layout
+
+\end_inset
+
+.
  Two electric fuel gauges directly in front of the fuel valve control indicate
  the fuel quantity in each tank.
  
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename fuel1.png
+	width 80col%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2187,9 +2315,26 @@ Idle cut-offs are incorporated in the throttle body and should always be
  position.
 \end_layout
 
+\begin_layout Standard
+The Rotac 503 engine runs on an oil-gasoline mixture of 50:1.
+ This mixture provides the engine with proper lubrication.
+\end_layout
+
+\begin_layout Standard
+The integrates oil pump will deliver the exact amount of oil required for
+ proper lubrication.
+\end_layout
+
+\begin_layout Standard
+Super two strole oil ASTM/CEC (Castrol TTS)
+\end_layout
+
+\begin_layout Standard
+Gearbox oil API-GL5 or GL6, SAE 140 EP or 85W-140 EP.
+\end_layout
+
 \begin_layout Section
-VIII.
- Electrical System
+Electrical System
 \end_layout
 
 \begin_layout Standard
@@ -2259,10 +2404,22 @@ The Alternator switch is mechanically linked with the split master switch
 \end_layout
 
 \begin_layout Subsection*
-ELECTIRCAL SYSTEM
+ELECTRICAL DIAGRAM
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename Rotax_503_electrical.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 ELECTRICAL LOAD ANALYSIS HiMax - 12 VOLT
 \end_layout
 
@@ -2272,13 +2429,248 @@ A.
 \end_layout
 
 \begin_layout Standard
-TOTAL CURRENT ITEM NUMBER USED IN AMPERES BVH HiMax 12.0 
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="40col%">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="10col%">
+<column alignment="center" valignment="top" width="10col%">
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-Volts14.3 VoltsFlap Gauge1Fuel Contents Gauge2Fuel Pressure Gauge1Oil Pressure
- Gauge1Garmin G3X EFIS1Trim Gauge1Alternator Contactor1.6.7Master Contactor1.6.7Navi
-gation Lights3Landing Lights14.65.5Instrument Flood Lights2Strobe (Whelen)15.05.9
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TOTAL 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CURRENT 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ITEM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NUMBER USED 
+\end_layout
+
+\begin_layout Plain Layout
+in HiMax
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.0 Volts 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14.3 Volts 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flap Gauge
+\end_layout
+
+\begin_layout Plain Layout
+Fuel Contents Gauge
+\end_layout
+
+\begin_layout Plain Layout
+Fuel Pressure Gauge1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Alternator Contactor
+\end_layout
+
+\begin_layout Plain Layout
+Master Contactor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.6
+\end_layout
+
+\begin_layout Plain Layout
+0.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7
+\end_layout
+
+\begin_layout Plain Layout
+0.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Navigation Lights
+\end_layout
+
+\begin_layout Plain Layout
+Landing Lights
+\end_layout
+
+\begin_layout Plain Layout
+Instrument Flood Lights
+\end_layout
+
+\begin_layout Plain Layout
+Strobe (Whelen)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2307,8 +2699,7 @@ PRIMARY EFIS FLIGHT INSTRUMENTS
 \end_layout
 
 \begin_layout Section
-IX.
- Finish
+Finish
 \end_layout
 
 \begin_layout Standard
@@ -2328,8 +2719,7 @@ External surfaces are coated with a durable synthetic enamel paint.
 \end_layout
 
 \begin_layout Section
-X.
- Instrument Panel
+Instrument Panel
 \end_layout
 
 \begin_layout Standard
@@ -2349,14 +2739,26 @@ All required engine instruments are available on the EFIS and an additional
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename instrument-panel.png
+	lyxscale 25
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 A Hobbs meter is provided to eliminate the need for constant reference to
  aircraft and engine log books.
  
 \end_layout
 
 \begin_layout Section
-XI.
- Seats
+Seats
 \end_layout
 
 \begin_layout Standard
@@ -2378,16 +2780,15 @@ The seat are fitted with full five(?) point harness restraints.
 \end_layout
 
 \begin_layout Standard
-Arm rests for both seats, headset jacks, auxiliary power points and storage
- compartments are all standard on the HiMax.
+Arm rests a headset jack, auxiliary power points and storage compartments
+ are all standard on the HiMax.
  The hinged side doors are equipped with locks operated by the same key.
  A tow bar is provided with each airplane and, when not in use, is stowed
  in the baggage compartment.
 \end_layout
 
 \begin_layout Section
-XII.
- Radio Equipment
+Radio Equipment
 \end_layout
 
 \begin_layout Standard
@@ -2399,8 +2800,7 @@ In the standard model of the HiMax, provisions for radio installations include
 \end_layout
 
 \begin_layout Section
-XIII.
- Ventilation
+Ventilation
 \end_layout
 
 \begin_layout Standard
@@ -2409,56 +2809,19 @@ The flow of air for cooling the HiMax cabin may be controlled by <the ball
  of the cabin.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 SECTION TWO OPERATING INSTRUCTIONS
 \end_layout
 
-\begin_layout Standard
-Page
-\end_layout
-
-\begin_layout Standard
-I.
- Preflight26
-\end_layout
-
-\begin_layout Standard
-II.
- Starting27III.
- Warm-Up and Ground Check28IV.
- Take-Offs Climbs and Stalls29
-\end_layout
-
-\begin_layout Standard
-V.
- Cruising31
-\end_layout
-
-\begin_layout Standard
-VI.
- Approach and Landing33VII.
- Stopping the Engine34
-\end_layout
-
-\begin_layout Standard
-VIII.
- Emergency Procedures35
-\end_layout
-
-\begin_layout Standard
-IX.
- Ground Handling and Mooring37X.
- Weight and Balance37XI.
- Operation Tips38XII.
- Radio Operation39XIII.
- Fuel Injection40XIV.
- Low Power Low RPM Cruise41XV.
- Flight Operations42
-\end_layout
-
 \begin_layout Section
-I.
- Preflight
+Preflight
 \end_layout
 
 \begin_layout Standard
@@ -2561,8 +2924,7 @@ Upon entering the plane, ascertain that all controls operate normally, that
 \end_layout
 
 \begin_layout Section
-II.
- Starting
+Starting
 \end_layout
 
 \begin_layout Standard
@@ -2630,14 +2992,45 @@ Engine Starting:
 \end_layout
 
 \begin_layout Standard
-Starter manufacturers recommend that cranking periods be limited to thirty
+Starter manufacturers recommend that cranking periods be limited to ten
  seconds with a two minute rest between cranking periods.
  Longer cranking periods will shorten the life of the starter.
 \end_layout
 
+\begin_layout Subsection*
+Cold engine
+\end_layout
+
+\begin_layout Enumerate
+Apply full Choke
+\end_layout
+
+\begin_layout Enumerate
+Throttle to idle
+\end_layout
+
+\begin_layout Enumerate
+Ignition on
+\end_layout
+
+\begin_layout Enumerate
+Engage strater (max 10 sec followed by 2 min cooldown)
+\end_layout
+
+\begin_layout Enumerate
+After start, set idle
+\end_layout
+
+\begin_layout Enumerate
+Remove choke
+\end_layout
+
+\begin_layout Subsection*
+Warm engine
+\end_layout
+
 \begin_layout Section
-III.
- Warm-Up and Ground Check
+Warm-Up and Ground Check
 \end_layout
 
 \begin_layout Standard
@@ -2649,23 +3042,17 @@ As soon as the engine starts, the oil pressure should be checked.
 \end_layout
 
 \begin_layout Standard
-Warm-up the engines at 1000 to 1400 RPM for not more than two minutes in
- warm weather, four minutes in cold weather.
+Warm-up the engine at 2,000 RPM for approximately two minutes.
  Avoid prolonged idling at low RPM as this practice may result in fouled
  spark plugs.
- If electrical power is needed from the alternator, the engines can be warmed
- at 2000 RPM at which point the alternator is putting out full charge.
- The magnetos should be checked at 2000 RPM with 15" Hg.
- MP and the propeller in flat pitch, the drop not to exceed 125 RPM.
- The engines are warm enough for take-off when the throttles can be opened
- without engine faltering.
+ 
 \end_layout
 
 \begin_layout Standard
-The electric fuel pumps should be turned off after starting or during warm-up
- to make sure that the engine driven pumps are operating.
- Prior to take-off the electric pumps should be turned on again to prevent
- loss of power during take-off due to fuel pump failure.
+The magnetos should be checked at 3000-3500 RPM, the drop not to exceed
+ 300 RPM.
+ The engines are warm enough for take-off when the throttles can be opened
+ without engine faltering.
 \end_layout
 
 \begin_layout Standard
@@ -2745,14 +3132,12 @@ Pre-Take Off:
 \end_layout
 
 \begin_layout Section
-IV.
- Take-Offs Climbs and Stalls
+Take-Offs Climbs and Stalls
 \end_layout
 
 \begin_layout Standard
 After the take-off has proceeded to the point where a landing can no longer
- be made wheels-down in event of power failure, the flap, if used, can be
- retracted.
+ be made in event of power failure, the flap, if used, can be retracted.
  The throttle should be brought back to climbing power of 6000 RPM .
  The best rate of climb is obtained at 43 kts.
  All controls are effective at speeds down through the stalling speed and
@@ -2783,44 +3168,44 @@ NORMAL PROCEDURES
 Take Off: 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 1.
  Taxi into position, center rudder.
  
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 2.
  Plan what you will do at any point during takeoff if the engine fails.
  
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 3.
  Smoothly open throttle, correcting directional control with rudder for
  engine torque.
  
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 4.
  Raise tail when controls are effective.
  
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 5.
  Lift off at 30 kts.
  
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 6.
  Max rate climb at 40 kts (Vx).
  
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Plain Layout
 7.
  Recommend maintain 40 kts until safe altitude is reached.
  
@@ -2832,8 +3217,7 @@ Take Off:
 \end_layout
 
 \begin_layout Section
-V.
- Cruising
+Cruising
 \end_layout
 
 \begin_layout Standard
@@ -2844,9 +3228,9 @@ The cruising speed of the HiMax is determined by many factors including
 
 \begin_layout Standard
 The normal recommended economy cruising power setting of the HiMax is at
- ??% power.
+ 6,500 RPM.
  At 7,500 feet this gives a True Air Speed of ?? kts.
- This power setting is obtained under standard conditions at ???? RPM.
+ This power setting is obtained under standard conditions at 7,500 RPM.
  Fuel consumption is about ?? liters per hour.
 \end_layout
 
@@ -2854,9 +3238,21 @@ The normal recommended economy cruising power setting of the HiMax is at
 <Add some notes about running against the engine/lubrication issue>
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename throttle-quad.png
+	lyxscale 25
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-VI.
- Approach and Landing
+Approach and Landing
 \end_layout
 
 \begin_layout Standard
@@ -2876,9 +3272,9 @@ Three point landings are the reccommended method of landing the HiMax.
 \end_layout
 
 \begin_layout Standard
-During the rollout it is prudent to be aware of of the fairly high C of
+During the roll-out it is prudent to be aware of of the fairly high C of
  G and narrow wheel track, which will create a tendancy to tip up on a wingtip
- in case of a groundloop.
+ in case of a ground-loop.
  
 \end_layout
 
@@ -2909,6 +3305,10 @@ Normally, the best technique for short and slow landings is to use full
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Landing Check List:
 \end_layout
 
@@ -2933,9 +3333,13 @@ Land with stick full back to ensure directional control.
  
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-VII.
- Stopping the Engine
+Stopping the Engine
 \end_layout
 
 \begin_layout Standard
@@ -2970,14 +3374,17 @@ Securing Aircraft:
  
 \end_layout
 
+\begin_layout Standard
+Prior to shutdown, the engine should be run for 2 minutes at 3,000 RPM,
+ then 15 seconds at idle (2,000 RPM) to allow latent heat build-up to dissipate.
+\end_layout
+
 \begin_layout Section
-VIII.
- Emergency Procedures
+Emergency Procedures
 \end_layout
 
 \begin_layout Subsection
-1.
- ENGINE FAILURE
+ENGINE FAILURE
 \end_layout
 
 \begin_layout Standard
@@ -3000,8 +3407,7 @@ If altitude permits, an engine re-start should be attempted.
 \end_layout
 
 \begin_layout Subsection
-2.
- BRAKE FAILURE
+BRAKE FAILURE
 \end_layout
 
 \begin_layout Standard
@@ -3018,8 +3424,7 @@ Main gear differential braking is the primary means of directional control
 \end_layout
 
 \begin_layout Subsection
-3.
- ALTERNATOR FAILURE
+ALTERNATOR FAILURE
 \end_layout
 
 \begin_layout Standard
@@ -3047,8 +3452,7 @@ Switch OFF the alternator relay to shed all alternator loads and isolate
 \end_layout
 
 \begin_layout Subsection
-4.
- EMERGENCY LANDINGS
+EMERGENCY LANDINGS
 \end_layout
 
 \begin_layout Standard
@@ -3080,8 +3484,7 @@ Any lower airspeed and you may not have enough energy to arrest your sink
 \end_layout
 
 \begin_layout Subsection
-n.
- SPIN REVOVERY
+SPIN REVOVERY
 \end_layout
 
 \begin_layout Standard
@@ -3106,8 +3509,7 @@ The engine may stop from fuel starvation, and if the propeller stops due
 \end_layout
 
 \begin_layout Subsection
-5.
- EMERGENCY DESCENT
+EMERGENCY DESCENT
 \end_layout
 
 \begin_layout Standard
@@ -3123,8 +3525,7 @@ g descent rate and controlling airspeed.
 \end_layout
 
 \begin_layout Subsection
-6.
- IN-FLIGHT DOOR CLOSING PROCEDURE
+IN-FLIGHT DOOR CLOSING PROCEDURE
 \end_layout
 
 \begin_layout Standard
@@ -3161,8 +3562,7 @@ Other conditions, take-off, landing approach and general low altitude flight,
 \end_layout
 
 \begin_layout Section
-IX.
- Ground Handling and Mooring
+Ground Handling and Mooring
 \end_layout
 
 \begin_layout Standard
@@ -3183,8 +3583,7 @@ The aileron and elevator controls should be secured by means of a safety
 \end_layout
 
 \begin_layout Section
-X.
- Weight and Balance
+Weight and Balance
 \end_layout
 
 \begin_layout Standard
@@ -3193,8 +3592,7 @@ For weight and balance data, see the Weight and Balance Form, which gives
 \end_layout
 
 \begin_layout Section
-XI.
- Operation Tips
+Operation Tips
 \end_layout
 
 \begin_layout Standard
@@ -3210,14 +3608,14 @@ Learn to trim the airplane for take-off so that only a very light back pressure
 \end_layout
 
 \begin_layout Enumerate
-The best speed for take-off is at about 65 kts under normal conditions.
+The best speed for take-off is at about ?? kts under normal conditions.
  Trying to pull the airplane off the ground at too low an airspeed decreases
  the controllability of the airplane in event of engine failure.
  
 \end_layout
 
 \begin_layout Enumerate
-The flaps may be lowered at airspeeds up to 85 kts.
+The flaps may be lowered at airspeeds up to ?? kts.
  To reduce flap operating loads, however, it is desirable to have the airplane
  at a slower speed before extending the flaps.
 \end_layout
@@ -3238,29 +3636,8 @@ The trim tab on the HiMax is very responsive and a small adjustment in trim
  control gives a rapid trim change attitude.
 \end_layout
 
-\begin_layout Enumerate
-The Lycoming Engine on the HiMax run very rich at the full rich position
- of the mixture control and must be leaned under all cruise conditions to
- achieve satisfactory economy.
-\end_layout
-
-\begin_layout Enumerate
-Flight when outside air temperatures are between -7 °C and 21 °C can cause
- the air intake to become obstructed with ice, leading to loss of engine
- power.
- In most cases when an engine loses manifold pressure without apparent cause,
- the use of alternate air will correct the condition.
-\end_layout
-
-\begin_layout Standard
-NOTE - Alternate air cannot be fully reset using the cockpit control and
- should be manually checked and reset after use by closing the alternate
- air flap inside the engine cowl after landing.
-\end_layout
-
 \begin_layout Section
-XII.
- Radio Operation
+Radio Operation
 \end_layout
 
 \begin_layout Standard
@@ -3283,61 +3660,38 @@ After power is supplied, the pilot may wish to operate the transmitter by
  The switch is located on the selector switch panel.
 \end_layout
 
-\begin_layout Standard
-A Flightcom Model 403mc intercom provides audio cockpit communication to
- both occupants.
- The intercom is a monaural unit compatible with most aviation headsets
- and provides two station radio transmit capability.
-\end_layout
-
-\begin_layout Standard
-A ATD-300 Traffic Watch TCAS unit is located on the left side of the panel,
- thus providing traffic collision avoidance.
-\end_layout
-
 \begin_layout Section
-XIII.
- Fuel Injection
+Fuel Injection
 \end_layout
 
 \begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
 The Precision Silver Hawk EX360-1 fuel injection system is based on the
  principle of measuring engine air consumption by use of a venturi tube
  and using airflow to control fuel flow to the engine.
  Fuel distribution to the cylinders is accomplished by a fuel flow divider.
- 
-\end_layout
-
-\begin_layout Standard
-Fuel pressure regulation by means of the servo valve causes a minimal drop
+ Fuel pressure regulation by means of the servo valve causes a minimal drop
  in fuel pressure throughout the metering system.
  Metering pressure is maintained above vapor forming conditions while fuel
  inlet pressure is low enough to allow the use of a diaphragm pump.
- Vapor lock and associated problems of difficult starting are thus eliminated.
-\end_layout
-
-\begin_layout Standard
-Incorporated in the servo regulator is the airflow sensing system which
- contains a throttle valve and venturi.
+ Vapor lock and associated problems of difficult starting are thus eliminated.Inc
+orporated in the servo regulator is the airflow sensing system which contains
+ a throttle valve and venturi.
  The differential pressure between the entrance and the throat of the venturi
  is the measurement of air entering the engine.
- These pressures are applied across an air diaphragm in the regulator.
-\end_layout
-
-\begin_layout Standard
-Mounted on top of the engine is the ported fuel flow divider with four nozzles
+ These pressures are applied across an air diaphragm in the regulator.Mounted
+ on top of the engine is the ported fuel flow divider with four nozzles
  routed to the cylinders.
  The divider contains a spring loaded positive shutoff valve.
  Within each cylinder are continuous flow air bleed nozzles with provisions
  to eliminate the adverse effects of low manifold pressure when idling.
  Since fuel metering is provided by the servo regulator rather than the
  nozzles, more uniform cylinder head temperatures result and a longer engine
- life is possible.
-\end_layout
-
-\begin_layout Standard
-Induction air for the engine enters the opening in the nose cowl and is
- picked up by a large air duct at the right rear baffle.
+ life is possible.Induction air for the engine enters the opening in the
+ nose cowl and is picked up by a large air duct at the right rear baffle.
  The air is directed to a filter and on to the servo regulator.
  An alternate air source for the induction system contains a door directly
  below the air filter.
@@ -3346,12 +3700,20 @@ Induction air for the engine enters the opening in the nose cowl and is
  The primary system should always be used for takeoff.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-XIV.
- Low Power Low RPM Cruise
+Low Power Low RPM Cruise
 \end_layout
 
 \begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
 The high price of aviation fuel is causing aircraft owners and pilots to
  review their operations in search of ways to keep operating costs down.
  Those operating aircraft with controllable propellers have been requesting
@@ -3359,12 +3721,8 @@ The high price of aviation fuel is causing aircraft owners and pilots to
  for example.
  The number of queries received indicates great deal of interest and therefore
  it seems appropriate to share the information on this subject with all
- of our readers.
-\end_layout
-
-\begin_layout Standard
-The Textron Lycoming Engine Operator's Manual has performance curves applicable
- to each engine series.
+ of our readers.The Textron Lycoming Engine Operator's Manual has performance
+ curves applicable to each engine series.
  The curve for the IO-360-M1B series, 180 horsepower engine imprinted here
  as a reference for this article.
  The curve does provide data on the maximum manifold pressure (MP), which
@@ -3382,19 +3740,366 @@ The Textron Lycoming Engine Operator's Manual has performance curves applicable
  
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-XV.
- Flight Operations
+Flight Operations
 \end_layout
 
 \begin_layout Standard
-OperationRPMHPSpeed (kts)Fuel Burn
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="10col%">
+<column alignment="center" valignment="top" width="10col%">
+<column alignment="center" valignment="top" width="10col%">
+<column alignment="center" valignment="top" width="10col%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Operation
 \end_layout
 
-\begin_layout Standard
-(lit/hr)Normal rated 270018047Performance cruise / 75% pwr 245013517543Economy
- cruise / 65% pwr 235011715533Cruise @ 55% power 9929Approach flaps up 72Approac
-h flaps down 65
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RPM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Power 
+\end_layout
+
+\begin_layout Plain Layout
+(kW)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Speed (kts)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fuel flow
+\end_layout
+
+\begin_layout Plain Layout
+(l/hr)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Normal max rated
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6800
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Performance cruise @ 75% pwr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Economy cruise @ 65% pwr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cruise @ 55% power
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Approach flaps up
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Approach flaps down
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3431,77 +4136,14 @@ AEROBATICS
 \end_layout
 
 \begin_layout Standard
-It is recommended that the HiMax be limited to sport aerobatics; aerobatic
- maneuvers done solely for the enjoyment to the pilot rather than of spectators
- or judges.
- These maneuvers can be tailored to be gentle to both the airplane and the
- pilot.
- The HiMax can perform all the usual aerobatic maneuvers (see below) easily
- and gracefully at low g loads.
- It is rarely necessary to dive to attain entry speeds.
- 
+None permitted.
 \end_layout
 
 \begin_layout Standard
-Maneuvering speed is 123 kts; maximum aerobatic weight is 700 kg and maximum
- aft CG is 217 cm when contemplating aerobatics.
-\end_layout
+\begin_inset Newpage pagebreak
+\end_inset
 
-\begin_layout Standard
-The maneuvering speed is highest speed at which full and abrupt control
- can be applied without exceeding design loads.
- This is not highest permissible aerobatic entry speed, but control inputs
- must be limited to less than full at any speed above maneuvering speed.
-\end_layout
 
-\begin_layout Standard
-The entry speeds for some maneuvers can vary over a wide range due to the
- large ratio of maximum speed to stall speed.
- For vertical maneuvers, Loops, Immelmann turns and Cuban eights, entry
- speed has an inverse relationship to g forces required to complete the
- maneuver.
- An entry speed at lower speeds will require a higher G pull up than for
- entry near top end of speed range.
-\end_layout
-
-\begin_layout Standard
-WARNING: Airspeed builds up very quickly, particularly in a dive.
- The HiMax is a pilot limited aircraft due to the light control - it is
- the pilot's responsibility not to overstress the aircraft.
- Control forces vary considerably with CG position - control forces at aft
- CG are much lighter than stick forces at forward CG.
-\end_layout
-
-\begin_layout Standard
-Limits: +6G -3G 
-\end_layout
-
-\begin_layout Standard
-Flight Regime Entry Speed (kts)
-\end_layout
-
-\begin_layout Standard
-Loop / Cuban 8 122 - 165
-\end_layout
-
-\begin_layout Standard
-Immelmann 130 - 165
-\end_layout
-
-\begin_layout Standard
-Aileron rolls / barrel rolls 104 - 156
-\end_layout
-
-\begin_layout Standard
-Snap rolls 70 - 96
-\end_layout
-
-\begin_layout Standard
-Vertical rolls 156 - 165
-\end_layout
-
-\begin_layout Standard
-Split S 87 - 96
 \end_layout
 
 \begin_layout Part
@@ -3523,11 +4165,10 @@ CHARTS
 \end_layout
 
 \begin_layout Section
-I.
- Performance Charts
+Performance Charts
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 TAKEOFF DISTANCE
 \end_layout
 
@@ -3540,7 +4181,7 @@ Flaps 17° (set flap angle to match down aileron angle at full aileron)
 \end_layout
 
 \begin_layout Standard
-2700 RPM, Full Throttle and Mixture Set prior to Brake Release
+6800 RPM, Full Throttle and Mixture Set prior to Brake Release
 \end_layout
 
 \begin_layout Standard
@@ -3552,6 +4193,18 @@ Zero Wind
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename takeoff_distance.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 LANDING DISTANCE
 \end_layout
 
@@ -3579,7 +4232,7 @@ Paved, Level, Dry Runway
 Zero Wind
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 POWER REQUIRED - TAS
 \end_layout
 
@@ -3596,6 +4249,18 @@ Mixture set to best power for 75% power.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename Rotax_503_perfromance.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 CRUISE SPEED
 \end_layout
 
@@ -3611,7 +4276,7 @@ Standard atmosphere
 Mixture set to best power for 75% power.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection*
 STALL SPEED GROSS WEIGHT
 \end_layout
 
@@ -3627,7 +4292,7 @@ Idle power
 Deceleration 1 kt/s
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 CRUISE RANGE
 \end_layout
 
@@ -3643,7 +4308,7 @@ Standard atmosphere
 Mixture leaned
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 FUEL FLOW
 \end_layout
 
@@ -3655,13 +4320,23 @@ CONDITIONS:
 Standard atmosphere
 \end_layout
 
+\begin_layout Standard
+\begin_inset Graphics
+	filename Rotax_503_fuel_consumption.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 II.
  Power Charts
 \end_layout
 
 \begin_layout Standard
-SECTION FOURGENERAL MAINTENANCEPageI.
+SECTION FOURGENERAL MAINTENANCE PageI.
  Leveling and Rigging60II.
  Tire Inflation62III.
  Battery Service62IV.
@@ -3678,13 +4353,19 @@ VII.
  Serial Number Plate69
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 GENERAL MAINTENANCE
 \end_layout
 
 \begin_layout Section
-I.
- Leveling and Rigging
+Leveling and Rigging
 \end_layout
 
 \begin_layout Standard
@@ -3741,7 +4422,7 @@ Ailerons: Travel -30° up, 17° down.
 \end_layout
 
 \begin_layout Enumerate
-Flaps: Travel -45 down.
+Flaps: Travel -45? down.
 \end_layout
 
 \begin_layout Enumerate
@@ -3761,8 +4442,7 @@ For the purpose of adjusting the lateral trim on the HiMax, aileron tabs
 \end_layout
 
 \begin_layout Section
-II.
- Tire Inflation
+Tire Inflation
 \end_layout
 
 \begin_layout Standard
@@ -3774,13 +4454,12 @@ For maximum service from the tires, keep the HiMax main wheels inflated
 on.
  Out-of-balance wheels can cause extreme vibration in the landing gear during
  take-off and landing.
- In the installation of new components, it may be necessary to rebalance
+ In the installation of new components, it may be necessary to re-balance
  the wheels with the tires mounted.
 \end_layout
 
 \begin_layout Section
-III.
- Battery Service
+Battery Service
 \end_layout
 
 \begin_layout Standard
@@ -3805,8 +4484,7 @@ If either of the batteries are not up to proper charge, recharge starting
 \end_layout
 
 \begin_layout Section
-IV.
- Brake Service
+Brake Service
 \end_layout
 
 \begin_layout Standard
@@ -3858,8 +4536,7 @@ to be separated.
 \end_layout
 
 \begin_layout Section
-V.
- Landing Gear Service
+Landing Gear Service
 \end_layout
 
 \begin_layout Standard
@@ -3898,22 +4575,11 @@ To check shimmy of the nose wheel, if it should develop:
 \end_layout
 
 \begin_layout Enumerate
-The nose wheel tire pressure should be between 1.7-2.4 bar (25-35 psi).
- Lower pressure is preferable because it increases the tire drag, which
- will help to damp any shimmy.
- Main tires should also be inflated to between 1.7-2.4 bar.
-\end_layout
-
-\begin_layout Enumerate
 Ensure that the wheel and tire assemblies are properly balanced.
 \end_layout
 
 \begin_layout Enumerate
 Check for uneven tire wear.
-\end_layout
-
-\begin_layout Enumerate
-The nose wheel axle bolt should be torqued to 9.5-13.5 Nm (7-10 pounds).
 \end_layout
 
 \begin_layout Enumerate
@@ -3923,77 +4589,33 @@ Check the engine mount and gear leg for any cracks or play.
  
 \end_layout
 
-\begin_layout Enumerate
-The nose fork disc springs should be clean and mounted correctly (SEE ABOVE)
-\end_layout
-
-\begin_layout Enumerate
-Breakout force should be set at 100 N (22 lb force) (SEE DWG C-1).
-\end_layout
-
-\begin_layout Standard
-The nose gear unit is dismounted by removing the nose wheel cowling and
- the leg fairing covering the top of the nose gear and extracting the landing
- gear bolt.
-\end_layout
-
-\begin_layout Standard
-Removal of the landing gear wheels is done as follows: 
-\end_layout
-
-\begin_layout Enumerate
-Remove the split pin from the castellated nut on the axle and then remove
- the nut
-\end_layout
-
-\begin_layout Enumerate
-Pull out the axle and remove the wheel from the fork.
- Care should be taken not to drop the wheel bearings.
-\end_layout
-
-\begin_layout Enumerate
-Remove the upper bearing retainer pins and slide both upper and lower bearings
- from the strut.
- The O-rings and wiper strips are then exposed for inspection.
-\end_layout
-
-\begin_layout Standard
-To refit the landing gear wheel, reverse the above procedure, being very
- careful to see that the snap ring and the upper bearing retainer pins are
- properly reinstalled.
-\end_layout
-
-\begin_layout Standard
-In the event that a wheel slowly loses pressure, the most probable source
- of trouble is a wheel puncture or faulty air valve.
- These parts should be checked first to determine whether or not air leaks
- are occurring.
- In the case of a puncture, it is recommended that the inner tube be replaced.
-\end_layout
-
 \begin_layout Section
-VI.
- Hydraulic System Service
+Hydraulic System Service
 \end_layout
 
 \begin_layout Standard
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
 The hydraulic system is filled by adding fluid to the reservoir, located
  on the firewall.
- Only petroleum base hydraulic fluid, MIL-PRF-5606, should be used.
-\end_layout
-
-\begin_layout Standard
-To add fluid to the system, remove the cap from the filler neck and fill
- the system completely while holding the filler tube extension level.
+ Only petroleum base hydraulic fluid, MIL-PRF-5606, should be used.To add
+ fluid to the system, remove the cap from the filler neck and fill the system
+ completely while holding the filler tube extension level.
  Then turn the elbow on the filler tube down until the excess oil has drained
  out.
  (See separate instructions for filling, cleaning and bleeding the complete
  hydraulic system).
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-VII.
- Fuel Requirements
+Fuel Requirements
 \end_layout
 
 \begin_layout Standard
@@ -4003,7 +4625,7 @@ Aviation grade 100LL octane or automotive <tbd> should be used in the HiMax.
 \end_layout
 
 \begin_layout Standard
-The oil capacity of the Rotax 447 engine is ??? liters.
+The oil capacity of the Rotax 503 engine is ??? liters.
  It is recommended that engine oil be changed every 25 flying hours or sooner
  under unfavorable conditions.
  The minimum safe quantity of oil required is ? liters.
@@ -4038,9 +4660,20 @@ SAE 30
 SAE 20
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename Rotax_fuel.png
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-VIII.
- Care of Air Filter
+Care of Air Filter
 \end_layout
 
 \begin_layout Standard
@@ -4067,9 +4700,12 @@ If the filter is found to be in good condition and is not obstructed after
  being properly cleaned, reinstall filter.
 \end_layout
 
+\begin_layout Standard
+Two K&N RC 1200 filters fitted to Rotax 503
+\end_layout
+
 \begin_layout Section
-IX.
- Care of Windshield and Canopy
+Care of Windshield and Canopy
 \end_layout
 
 \begin_layout Standard
@@ -4111,8 +4747,7 @@ A severe scratch or mar can be removed by using jewelers rouge to rub out
 \end_layout
 
 \begin_layout Section
-X.
- Serial Number Plate
+Serial Number Plate
 \end_layout
 
 \begin_layout Standard
@@ -4122,29 +4757,1008 @@ The serial number plate on the HiMax is located against the aft baggage
  airplane in service or warranty matters.
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename Rotax_503_Side.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename Rotax_503_front.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Rotax 503 Technical Specifications
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset Tabular
+<lyxtabular version="3" rows="29" columns="2">
+<features tabularvalignment="top">
+<column alignment="left" valignment="top" width="25col%">
+<column alignment="left" valignment="top" width="70col%">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+DESCRIPTION:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Two-cycle, two-cylinder engine, oil in fuel lubrication 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+BORE: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+72.0mm (2.835 in.) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+STROKE: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+61mm (2.40 in.) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+DIRECTION OF ROTATION: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Counter- clockwise, viewed towards PTO (without reduction gear box) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+DISPLACEMENT:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+496.7 c.c.
+ (30.31 cu.
+ in.) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+COMPRESSION RATIO:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Theoretical 10.8 - effective 6.2 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+POWER OUTPUT:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+34.0 kw (46 hp) configuration single carb.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+MAXIMUM RPM:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+6800 rpm.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+DIRECTION OF ROTATION:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Counter- clockwise, viewed towards PTO (without reduction gear box) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+CYLINDER: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2 light alloy cylinders with cast iron sleeves 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+PISTON:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Aluminum cast piston with 2 rings 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+PISTON/CYLINDER CLEARANCE:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+0.07 - 0.08mm (.0028 - .0032 in.) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+IGNITION SYSTEM:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Breakerless Ducati capacitor discharge dual ignition with magneto generator.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+GENERATOR OUTPUT:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+170 W AC at 6000 rpm and 13.5 V RMS 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+RECTIFIER- REGULATOR:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(optional)a.) #9103 requires min.
+ load 12 W (1 amp) to regulate b.) #9251 requires no min.
+ load 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+IGNITION TIMING:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1.47mm = .059 in.
+ (16 degrees B.T.D.C.) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+SPARK PLUG:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+14 mm NGK B8ES ELECTRODE GAP: .015 in.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+CARBURETOR:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1 x BING 36mm (1.42 in.) hand lever choke 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+FUEL PUMP:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Pneumatic fuel pump #6903 for single carb 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+FUEL:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Regular or premium gasoline, octane not lower than 90 octane (unleaded fuels)
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+ENGINE LUBRICATION :
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Super 2- stroke oil (AV-2), proposed ASTM/CEC 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+STARTER: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Rewind starter - standard (optional) electric starter, magneto side without
+ rewind starter 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+REDUCTION GEARBOX "B":
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(optional) Reduction gear box with torsional shock absorber, for propeller
+ interia up to 3000 kg cm sq.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+REDUCTION GEAR BOX "C":
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(optional) Reduction gear box with torsional shock absorber, for propeller
+ interia up to 6000 kg cm sq.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+RATIOS:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2.62 to 1, 3.00 to 1, 3.47 to 1, 4.00 to 1.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+GEAR BOX LUBRICATION:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Gear oil, GL5 or GL6, SAE 140EP, or 85 W-140 EP 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+PROP SHAFT ROTATION: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Clockwise, viewed towards propeller flange.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+COOLING: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Air cooled by axial fan 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+WEIGHT: 
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="60col%">
+<column alignment="right" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Item
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Weight (kg)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Engine wo/: carburetor, air filter, fuel pump, exhaust system
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+30.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2 carbs w/ sockets
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+exhaust system assy
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4.9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2 air filter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+0.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+electric start kit, mag end.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+3.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+start kit, mag end.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Reduction box "B"
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Reduction box "C"
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+8.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 WEIGHT AND BALANCE DATA
 \end_layout
 
-\begin_layout Standard
-WEIGHT AND BALANCE DATA
-\end_layout
-
-\begin_layout Standard
-PageI.
- Loading Sheet74II.
- W&B Envelope75III.
- Load Factor Limits77IV.
- Flight Envelope78
-\end_layout
-
-\begin_layout Standard
-WEIGHT AND BALANCE DATA
-\end_layout
-
 \begin_layout Section
-I.
- Loading Sheet 
+Loading Sheet 
 \end_layout
 
 \begin_layout Standard
@@ -4196,15 +5810,15 @@ Wing LE: 0 cm aft of Datum
 \end_layout
 
 \begin_layout Standard
-Main wheel right: 237 cm aft of Datum
+Main wheel right: nnn? cm aft of Datum
 \end_layout
 
 \begin_layout Standard
-Main wheel left: 237 cm aft of Datum
+Main wheel left: nnn? cm aft of Datum
 \end_layout
 
 \begin_layout Standard
-Nose Wheel: 82 cm aft of Datum
+Tail Wheel: nnn? cm aft of Datum
 \end_layout
 
 \begin_layout Standard
@@ -4213,14 +5827,6 @@ Fuel ??? cm aft of Datum
 
 \begin_layout Standard
 Pilot: ??? cm aft of Datum
-\end_layout
-
-\begin_layout Standard
-Passenger: ??? cm aft of Datum
-\end_layout
-
-\begin_layout Standard
-Forward Baggage: ???9 cm aft of Datum
 \end_layout
 
 \begin_layout Standard
@@ -4453,8 +6059,7 @@ Empty CG:
 \end_layout
 
 \begin_layout Section
-II.
- W&B Envelope 
+W&B Envelope 
 \end_layout
 
 \begin_layout Standard
@@ -4462,6 +6067,8 @@ Datum: On the wing leading edge (LE)
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Graphics
 	filename wb_envelope.png
 	width 90col%
@@ -4476,9 +6083,9 @@ Datum: On the wing leading edge (LE)
 <lyxtabular version="3" rows="4" columns="4">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="40col%">
-<column alignment="center" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="30col%">
+<column alignment="left" valignment="top" width="30col%">
+<column alignment="center" valignment="top" width="20col%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -4582,7 +6189,7 @@ Limited aerobatics
 \begin_inset Text
 
 \begin_layout Plain Layout
-Wingover / Lazy-8Chandelle
+Wingover / Lazy-8 / Chandelle
 \end_layout
 
 \end_inset
@@ -4611,7 +6218,7 @@ Acrobatic
 \begin_inset Text
 
 \begin_layout Plain Layout
-Not permitted
+None permitted
 \end_layout
 
 \end_inset
@@ -4643,8 +6250,7 @@ Not permitted
 \end_layout
 
 \begin_layout Section
-III.
- Load Factor Limits
+Load Factor Limits
 \end_layout
 
 \begin_layout Standard
@@ -4709,10 +6315,19 @@ Cross country loading - Range
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Graphics
 	filename himax_logo.png
 	width 10col%
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -4786,191 +6401,195 @@ Circuit breakers CHECK
 Avionics OFF
 \end_layout
 
-\begin_layout Subsection*
-STARTING ENGINES - COLD
+\begin_layout Section*
+STARTING ENGINES
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
+COLD START
+\end_layout
+
+\begin_layout Itemize
 Master ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Magnetos ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Cowl flaps SET
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Throttle FULL OPEN
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Pitch FULL FINE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture FULL RICH
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Fuel pump ON 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 until flow indication) 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture IDLE CUT-OFF 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Fuel pump OFF
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Throttle 1/4 OPEN
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Propeller CLEAR
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Starter ENGAGE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture ADVANCE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Oil pressure CHECK
 \end_layout
 
 \begin_layout Subsection*
-STARTING ENGINES - HOT
+HOT START
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Master ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Magnetos ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Cowl flaps SET
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Throttle 1/4 OPEN
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Pitch FULL FINE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture IDLE CUT-OFF
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Propeller CLEAR
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Starter ENGAGE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture ADVANCE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Oil pressure CHECK
 \end_layout
 
 \begin_layout Subsection*
-STARTING ENGINES - FLOODED
+FLOODED START
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Master ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Magnetos ON
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Cowl flaps SET
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Throttle FULL OPEN
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Pitch FULL FINE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture IDLE CUT-OFF
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Fuel pump OFF
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Propeller CLEAR
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Starter ENGAGE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Throttle RETARD
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Mixture ADVANCE
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Oil pressure CHECK
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 TAXI
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Radio SET
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Park brake OFF
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Brakes TEST
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Lights AS REQUIRED
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Flight Instruments CHECK
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 PRE-TAKEOFF
 \end_layout
 
@@ -5080,7 +6699,7 @@ Flap - As required
 Final - Fuel off, Mayday call
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 TAKEOFF
 \end_layout
 
@@ -5126,7 +6745,7 @@ Throttle - 6800 RPM
 Fuel pump OFF
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 AIRFIELD JOINING
 \end_layout
 
@@ -5162,7 +6781,7 @@ Security Harnesses SECURE
 Speeds REVIEW
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 CIRCUIT
 \end_layout
 
@@ -5208,7 +6827,7 @@ Full Flap 35 kts
 \end_layout
 
 \end_deeper
-\begin_layout Subsection*
+\begin_layout Section*
 FINAL APPROACH
 \end_layout
 
@@ -5224,7 +6843,7 @@ Undercarriage DOWN and WELDED
 Flaps FULL
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 POST LANDING
 \end_layout
 
@@ -5236,7 +6855,7 @@ Flaps IDENTIFY LEVER and RETRACT
 Fuel pump OFF
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 PARKING
 \end_layout
 
