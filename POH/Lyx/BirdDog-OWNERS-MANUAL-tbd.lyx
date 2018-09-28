@@ -67,6 +67,7 @@ End
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 10page%
 \topmargin 10pheight%
 \secnumdepth 3
 \tocdepth 3
@@ -1136,11 +1137,7 @@ Baggage Space Aft
 
 \end_layout
 
-\begin_layout Section*
-DESCRIPTION 
-\end_layout
-
-\begin_layout Section*
+\begin_layout Subsection*
 General 
 \end_layout
 
@@ -1168,8 +1165,8 @@ An aluminum member within the fuselage connects the lower strut fittings.
  
 \end_layout
 
-\begin_layout Section*
-LIMITATIONS
+\begin_layout Subsection*
+Limitations
 \end_layout
 
 \begin_layout Subsection*
@@ -1585,7 +1582,7 @@ VNE vs ALTITUDE
 \end_layout
 
 \begin_layout Subsection*
-AIRSPEED INDICATOR MARKINGS
+Airspeed Indicator markings
 \end_layout
 
 \begin_layout Standard
@@ -1813,7 +1810,7 @@ The EFIS airspeed tape markings are to be revised to incorporate actual
 \end_layout
 
 \begin_layout Subsection*
-FUEL QUANTITY DATA (liters)
+Fuel Quantity data (liters)
 \end_layout
 
 \begin_layout Standard
@@ -2062,19 +2059,6 @@ The propeller on the HiMax is a Bolly Optima Series 3, 6 bolt, Ground adjustable
  
 \end_layout
 
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Graphics
-	filename gascolator-relay.png
-	lyxscale 25
-	width 60col%
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Fuselage and Wing Structures
 \end_layout
@@ -2289,8 +2273,9 @@ below the left instrument console
 \noindent
 \align center
 \begin_inset Graphics
-	filename fuel1.png
-	width 80col%
+	filename gascolator.png
+	lyxscale 25
+	width 50col%
 
 \end_inset
 
@@ -2743,8 +2728,8 @@ All required engine instruments are available on the EFIS and an additional
 \align center
 \begin_inset Graphics
 	filename instrument-panel.png
-	lyxscale 25
-	width 90col%
+	lyxscale 30
+	width 100col%
 
 \end_inset
 
@@ -3661,48 +3646,11 @@ After power is supplied, the pilot may wish to operate the transmitter by
 \end_layout
 
 \begin_layout Section
-Fuel Injection
+Carburetor
 \end_layout
 
 \begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-The Precision Silver Hawk EX360-1 fuel injection system is based on the
- principle of measuring engine air consumption by use of a venturi tube
- and using airflow to control fuel flow to the engine.
- Fuel distribution to the cylinders is accomplished by a fuel flow divider.
- Fuel pressure regulation by means of the servo valve causes a minimal drop
- in fuel pressure throughout the metering system.
- Metering pressure is maintained above vapor forming conditions while fuel
- inlet pressure is low enough to allow the use of a diaphragm pump.
- Vapor lock and associated problems of difficult starting are thus eliminated.Inc
-orporated in the servo regulator is the airflow sensing system which contains
- a throttle valve and venturi.
- The differential pressure between the entrance and the throat of the venturi
- is the measurement of air entering the engine.
- These pressures are applied across an air diaphragm in the regulator.Mounted
- on top of the engine is the ported fuel flow divider with four nozzles
- routed to the cylinders.
- The divider contains a spring loaded positive shutoff valve.
- Within each cylinder are continuous flow air bleed nozzles with provisions
- to eliminate the adverse effects of low manifold pressure when idling.
- Since fuel metering is provided by the servo regulator rather than the
- nozzles, more uniform cylinder head temperatures result and a longer engine
- life is possible.Induction air for the engine enters the opening in the
- nose cowl and is picked up by a large air duct at the right rear baffle.
- The air is directed to a filter and on to the servo regulator.
- An alternate air source for the induction system contains a door directly
- below the air filter.
- This door operates manually by the push-pull control to the right and in
- front of the throttle quadrant.
- The primary system should always be used for takeoff.
-\end_layout
-
-\end_inset
-
-
+1 x BING 36mm (1.42 in.) hand lever choke
 \end_layout
 
 \begin_layout Section
@@ -4488,27 +4436,7 @@ Brake Service
 \end_layout
 
 \begin_layout Standard
-The brake system is filled with MIL-PRF-5606 (petroleum base red) hydraulic
- fluid.
- This should be checked at every 100 hours inspection and replenished when
- necessary.
-\end_layout
-
-\begin_layout Standard
-Do not use vegetable base brake fluids (blue) when refilling the system.
- When it is necessary to add fluid, remove the upper engine cowl, exposing
- the brake reservoir located on the firewall.
- Then add fluid to the reservoir, bringing the fluid to the indicated level.
-\end_layout
-
-\begin_layout Standard
-If it is necessary to bleed the brake system to get air out of the lines,
- fluid should be added under pressure at the bleeder attachment on the brake
- unit.
-\end_layout
-
-\begin_layout Standard
-No adjustment of brake clearances is necessary on the HiMax brakes.
+Periodic adjustment of brake clearances may be necessary on the HiMax brakes.
  If after extended service, braking action requires too much movement of
  the toe pedal, new brake linings can easily be installed by removing the
  four bolts which attach the brake units, then replacing the brake linings
@@ -4619,7 +4547,8 @@ Fuel Requirements
 \end_layout
 
 \begin_layout Standard
-Aviation grade 100LL octane or automotive <tbd> should be used in the HiMax.
+Aviation grade 100LL octane or automotive at least RON 90 should be used
+ in the HiMax.
  The use of lower grades of fuel can cause serious engine damage in a very
  short period of time.
 \end_layout
@@ -4677,9 +4606,9 @@ Care of Air Filter
 \end_layout
 
 \begin_layout Standard
-The throttle body air filters must be cleaned at least once every fifty
- hours and depending on the type of condition existing, it may be necessary
- to clean the filters daily or every five hours.
+The air filters must be cleaned at least once every fifty hours and depending
+ on the type of condition existing, it may be necessary to clean the filters
+ daily or every five hours.
  Extra filters are inexpensive and should be kept on hand and used for rapid
  replacement.
 \end_layout
@@ -4702,6 +4631,19 @@ If the filter is found to be in good condition and is not obstructed after
 
 \begin_layout Standard
 Two K&N RC 1200 filters fitted to Rotax 503
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename k&n-filter.jpg
+	lyxscale 50
+	width 30col%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -5794,43 +5736,220 @@ Serial Number: ?????
 \end_layout
 
 \begin_layout Standard
-Datum: 0 cm forward of the wing leading edge (LE)
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="60col%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Datum:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0 cm forward of the wing leading edge (LE)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Design CG Range:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21% to 30% of wing cord (?? to ?? cm aft of Datum)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wing LE:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0 cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Main wheel right:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+nnn? cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Main wheel left:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+nnn? cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tail Wheel:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+nnn? cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fuel:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+??? cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pilot:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+??? cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aft Baggage Floor:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+??? cm aft of Datum
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Design CG Range: 21% to 30% of wing cord
-\end_layout
-
-\begin_layout Standard
-(?? to ?? cm aft of Datum)
-\end_layout
-
-\begin_layout Standard
-Wing LE: 0 cm aft of Datum
-\end_layout
-
-\begin_layout Standard
-Main wheel right: nnn? cm aft of Datum
-\end_layout
-
-\begin_layout Standard
-Main wheel left: nnn? cm aft of Datum
-\end_layout
-
-\begin_layout Standard
-Tail Wheel: nnn? cm aft of Datum
-\end_layout
-
-\begin_layout Standard
-Fuel ??? cm aft of Datum
-\end_layout
-
-\begin_layout Standard
-Pilot: ??? cm aft of Datum
-\end_layout
-
-\begin_layout Standard
-Aft Baggage Floor: ??? cm aft of Datum
+<pic here>
 \end_layout
 
 \begin_layout Standard
@@ -6254,48 +6373,43 @@ Load Factor Limits
 \end_layout
 
 \begin_layout Standard
-Flaps Retracted
+\begin_inset Phantom Phantom
+status open
+
+\begin_layout Plain Layout
+Flaps Retractedweight 700 kg (1550 lb) and below: +6g to -3greducing linearly
+ to 820 kg (1800 lb): +5g to -2.5gFlaps Extended: +2g to 0gThe load factor
+ limit varies linearly between 820 kg and 700 kg.NOTES:The load factor limits
+ for weights above 703 kg (1550 lb) are not published by Van's Aircraft,
+ but are established based on conservative engineering analysis of wing
+ bending moment vs load factor.The load factor limits for flaps extended
+ are based on FAR 23 structural design criteria, which the HiMax aircraft
+ is designed to.
 \end_layout
 
-\begin_layout Standard
-weight 700 kg (1550 lb) and below: +6g to -3g
-\end_layout
+\end_inset
 
-\begin_layout Standard
-reducing linearly to 820 kg (1800 lb): +5g to -2.5g
-\end_layout
 
-\begin_layout Standard
-Flaps Extended: +2g to 0g
-\end_layout
-
-\begin_layout Standard
-The load factor limit varies linearly between 820 kg and 700 kg.
-\end_layout
-
-\begin_layout Standard
-NOTES:
-\end_layout
-
-\begin_layout Enumerate
-The load factor limits for weights above 703 kg (1550 lb) are not published
- by Van's Aircraft, but are established based on conservative engineering
- analysis of wing bending moment vs load factor.
-\end_layout
-
-\begin_layout Enumerate
-The load factor limits for flaps extended are based on FAR 23 structural
- design criteria, which the HiMax aircraft is designed to.
 \end_layout
 
 \begin_layout Section
-IV.
- Flight Envelope
+Flight Envelope
 \end_layout
 
 \begin_layout Standard
-V.
- Worked Examples
+\noindent
+\align center
+\begin_inset Graphics
+	filename flight-envelope.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Worked Examples
 \end_layout
 
 \begin_layout Standard
