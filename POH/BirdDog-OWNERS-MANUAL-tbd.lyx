@@ -257,6 +257,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -285,6 +286,23 @@ setcounter{page}{1}
 
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+THIS PAGE INTENTIONALLY LEFT BLANK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 DESIGN FEATURES
 \end_layout
@@ -294,31 +312,31 @@ Specifications
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
 
-\begin_layout Plain Layout
+\size footnotesize
 \begin_inset Tabular
-<lyxtabular version="3" rows="41" columns="2">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="50col%">
+<lyxtabular version="3" rows="38" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="25col%">
+<column alignment="left" valignment="top" width="75col%">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Manufacturer
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 BOSLUIS Aerospace
 \end_layout
 
@@ -330,15 +348,19 @@ BOSLUIS Aerospace
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Manufacture date
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 2018
 \end_layout
 
@@ -350,16 +372,20 @@ Manufacture date
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Model
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-TEAM 1700R HiMax
+
+\size footnotesize
+TEAM 1700R, HiMax
 \end_layout
 
 \end_inset
@@ -370,15 +396,19 @@ TEAM 1700R HiMax
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Serial 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 7600
 \end_layout
 
@@ -390,16 +420,34 @@ Serial
 \begin_inset Text
 
 \begin_layout Plain Layout
-Empty weight / gross weight 
+
+\size footnotesize
+Empty / Gross weight 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-144 / 254 kg
+
+\size footnotesize
+144 / 254 kg 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Authorised: 254 kg (560 lbs) 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+On Condition: Can be raised to 268 kg (590 Lbs if U/C reinforcement mod
+ LAA-186-008 fitted, but subject to minimum rate of climb 250 ft/minute
+ at that weight under standard day conditions
 \end_layout
 
 \end_inset
@@ -410,36 +458,20 @@ Empty weight / gross weight
 \begin_inset Text
 
 \begin_layout Plain Layout
-Payload (full fuel) 
-\end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-???
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\size footnotesize
 Useful load 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-???
+
+\size footnotesize
+110 kg (124 if mod LAA-186-008 fitted)
 \end_layout
 
 \end_inset
@@ -450,15 +482,43 @@ Useful load
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
+Payload (full fuel) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+81 kg (95 kg if mod LAA-186-008 fitted)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
 Engine 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Rotax 503 UL DCDI(37 kW)
 \end_layout
 
@@ -470,15 +530,19 @@ Rotax 503 UL DCDI(37 kW)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 RPM max 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 6800 (max 5 min)
 \end_layout
 
@@ -490,15 +554,19 @@ RPM max
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 CHT max 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 180-220 (max 250) ºC 
 \end_layout
 
@@ -506,19 +574,23 @@ CHT max
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 EGT max
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 460-580 (max 650) ºC 
 \end_layout
 
@@ -530,15 +602,19 @@ EGT max
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Oil capacity 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 8 lit 50 wt ?
 \end_layout
 
@@ -550,15 +626,19 @@ Oil capacity
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Oil pressure range 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 4-6 bar ?
 \end_layout
 
@@ -570,15 +650,19 @@ Oil pressure range
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Oil temperature 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 max 118 ºC ?
 \end_layout
 
@@ -590,15 +674,19 @@ max 118 ºC ?
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Fuel pressure range 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 0.2 - 0.4 bar
 \end_layout
 
@@ -610,15 +698,19 @@ Fuel pressure range
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Induction 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 <some carb>
 \end_layout
 
@@ -630,15 +722,19 @@ Induction
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Propeller 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Bolly Optima Series 3
 \end_layout
 
@@ -650,15 +746,19 @@ Bolly Optima Series 3
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Tires 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 4.00x6 (main), ?.00? (tail)
 \end_layout
 
@@ -670,15 +770,19 @@ Tires
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Airfoil 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Clark-Y (Modified)
 \end_layout
 
@@ -690,15 +794,19 @@ Clark-Y (Modified)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Wingspan 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 7.6 m (25 ft)
 \end_layout
 
@@ -710,15 +818,19 @@ Wingspan
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Wing area 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 10.8 m2 (112.5 ft2)
 \end_layout
 
@@ -730,15 +842,19 @@ Wing area
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Wing loading 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 23.5 kg/m2 (4.6 lbs/ft2)
 \end_layout
 
@@ -750,15 +866,19 @@ Wing loading
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Power loading 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 7.43 kg/kW (12.4 lbs/hp)
 \end_layout
 
@@ -770,16 +890,20 @@ Power loading
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Length 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.9 m
+
+\size footnotesize
+4.9 m 
 \end_layout
 
 \end_inset
@@ -790,16 +914,20 @@ Length
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Height 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.7 m
+
+\size footnotesize
+1.7 m 
 \end_layout
 
 \end_inset
@@ -810,15 +938,19 @@ Height
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Wheelbase 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 1.9 x 1.5 m ???
 \end_layout
 
@@ -830,15 +962,19 @@ Wheelbase
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 G limit @ 290 kg 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 +3.8 g 
 \end_layout
 
@@ -850,15 +986,19 @@ G limit @ 290 kg
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 G limit @ 255 kg 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 +4.4 g 
 \end_layout
 
@@ -870,36 +1010,20 @@ G limit @ 255 kg
 \begin_inset Text
 
 \begin_layout Plain Layout
-Fuel Capacity (Total) 
+
+\size footnotesize
+Fuel Capacity 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-45 lit
-\end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Fuel Capacity (Usable) 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-44 lit
+\size footnotesize
+45 lit (44 lit Usable)
 \end_layout
 
 \end_inset
@@ -910,16 +1034,26 @@ Fuel Capacity (Usable)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Fuel Flow (@ 75%) 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-15 lit/hr
+
+\size footnotesize
+15 lit/hr (75% @ 6000 RPM) 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+25 lit/hr (100% @ 6800 RPM)
 \end_layout
 
 \end_inset
@@ -930,35 +1064,19 @@ Fuel Flow (@ 75%)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Fuel Flow (@ 100%) 
-\end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-25 lit/hr
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\size footnotesize
 Takeoff Distance 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 30 m
 \end_layout
 
@@ -970,15 +1088,19 @@ Takeoff Distance
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Landing Distance 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 64 m
 \end_layout
 
@@ -990,15 +1112,19 @@ Landing Distance
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Rate of Climb 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 1,200 fpm
 \end_layout
 
@@ -1010,15 +1136,19 @@ Rate of Climb
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Ceiling 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 12,500 ft
 \end_layout
 
@@ -1030,36 +1160,26 @@ Ceiling
 \begin_inset Text
 
 \begin_layout Plain Layout
-Range (75% @ 8000 ft) 678 nm
+
+\size footnotesize
+Range 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\size footnotesize
+? nm (55% @ 8000 ft) 
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Range (55% @ 8000 ft) 821 nm
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
 \begin_layout Plain Layout
 
+\size footnotesize
+? nm (75% @ 8000 ft)
 \end_layout
 
 \end_inset
@@ -1070,16 +1190,20 @@ Range (55% @ 8000 ft) 821 nm
 \begin_inset Text
 
 \begin_layout Plain Layout
-Service Ceiling 19,500 ft
+
+\size footnotesize
+Service Ceiling 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\size footnotesize
+12,500 ft
 \end_layout
 
 \end_inset
@@ -1090,15 +1214,19 @@ Service Ceiling 19,500 ft
 \begin_inset Text
 
 \begin_layout Plain Layout
-Baggage Capacity Aft 
+
+\size footnotesize
+Baggage 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 15 kg ?
 \end_layout
 
@@ -1110,15 +1238,19 @@ Baggage Capacity Aft
 \begin_inset Text
 
 \begin_layout Plain Layout
-Baggage Space Aft 
+
+\size footnotesize
+Baggage volume 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 212 lit ?
 \end_layout
 
@@ -1132,21 +1264,16 @@ Baggage Space Aft
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection*
 General 
 \end_layout
 
 \begin_layout Standard
-HiMAX is of conventional configuration, strut braced, high wing strut braced
+HiMAX is a conventional configuration, strut braced, high wing strut braced
  aircraft.
  Landing gear is the conventional type, with two main wheels located ahead
  of the center of gravity and a steerable tailwheel.
- The landing gear is rigid, with low pressure tires absorbing the landing
+ The landing gear is flexible, with low pressure tires absorbing the landing
  loads.
  The wing struts attach at the outboard end of the landing gear axle, and
  all landing and flight loads pass through the landing gear structure.
@@ -1214,7 +1341,16 @@ kts
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vs
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+s
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1243,7 +1379,16 @@ Stall, flap retracted
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vso
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+so
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1272,7 +1417,16 @@ Stall, flap extended
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vr
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+r
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1301,7 +1455,16 @@ Takeoff rotate
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vref
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+ref
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1330,7 +1493,16 @@ Final approach (~ 1.3 Vso)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vx
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+x
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1359,7 +1531,16 @@ Best angle climb
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vy
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+y
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1388,7 +1569,16 @@ Best rate climb
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vz
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+z
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1417,7 +1607,16 @@ Best cruise climb
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vbg
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+bg
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1446,7 +1645,16 @@ Best glide angle (6:1)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vfe
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+fe
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1475,7 +1683,16 @@ Flaps extension
 \begin_inset Text
 
 \begin_layout Plain Layout
-Va
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1504,7 +1721,16 @@ Maneuvering
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vno
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1533,7 +1759,16 @@ Max structural cruise
 \begin_inset Text
 
 \begin_layout Plain Layout
-Vne
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+ne
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1873,7 +2108,7 @@ Left wing
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+22
 \end_layout
 
 \end_inset
@@ -1882,7 +2117,7 @@ Left wing
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+1
 \end_layout
 
 \end_inset
@@ -1891,7 +2126,7 @@ Left wing
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+23
 \end_layout
 
 \end_inset
@@ -1911,7 +2146,7 @@ Right wing
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+22
 \end_layout
 
 \end_inset
@@ -1920,7 +2155,7 @@ Right wing
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+1
 \end_layout
 
 \end_inset
@@ -1929,7 +2164,7 @@ Right wing
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+23
 \end_layout
 
 \end_inset
@@ -1990,8 +2225,8 @@ HiMax model 1700R is fitted with a Rotax 503 with 2.58:1 E-type gearbox engine.
 \end_layout
 
 \begin_layout Standard
-Rotax 503: two cycle, two cylinder in-line engine rated at 37 kW (56 HP)
- with dual carburetors.
+The Rotax 503 is a two cycle, two cylinder in-line engine rated at 37 kW
+ (56 HP) with dual carburetors.
  
 \end_layout
 
@@ -1999,30 +2234,48 @@ Rotax 503: two cycle, two cylinder in-line engine rated at 37 kW (56 HP)
 Standard engine controls are the throttle and magneto switch in the cockpit,
  and the choke, with the choke control located either on the carburetor
  or in the cockpit.
- Starting is by handing propping, by the standard pull starter or with electric
+ Starting is by handing propping, the standard pull starter or with electric
  starter.
  
 \end_layout
 
 \begin_layout Standard
-The Rotax 447 engine in the HiMax produces 37 kW (56 HP) at 6800 RPM.
+The Rotax 503 engine in the HiMax produces 37 kW (56 HP) at 6800 RPM.
  This engine can use 91/96 MOGAS or 100 LL AVGAS fuel.
 \end_layout
 
 \begin_layout Standard
-503 Compression ratio 10.8:1.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+503 Compression ratio 10.8:1
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Integrated AC generator (12V 170W) with external rectifier-regulator.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Integrated AC generator (12V 14A) with external rectifier-regulator.
  
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-The engine on the standard HiMax is equipped with an electric starter, alternato
-r, two magnetos, shielded harness, shielded spark plugs, diaphragm fuel
- pump, tachometer pickups, and thermostats for oil, cylinder head and exhaust
- gas temperatures.
+The engine on the standard HiMax is equipped with an electric starter, 12V
+ 14A alternator, two magnetos, shielded harness, shielded spark plugs, diaphragm
+ fuel pump, tachometer pickups, and thermostats for oil, cylinder head and
+ exhaust gas temperatures.
 \end_layout
 
 \begin_layout Standard
@@ -2049,7 +2302,50 @@ Engine mounts are of steel tubing construction and incorporate vibration
 \end_layout
 
 \begin_layout Standard
-The exhaust system <some words here>.
+Considerable effort has gone into the desigh of the Rotax exhaust system.
+ Any changes may have a severe impact on performance, reliability, engine
+ life fuel economy and noise level.
+ Improper handling or mondification can damage the
+\end_layout
+
+\begin_layout Standard
+engine.The exhaust system is tuned specifically for this engine and must
+ not be altered.
+ The medium length based on the center line of the exhaust must be 660mm.
+ Check the exhaust system for tightness, physical damage, or sound changes.
+ Pay particular attention to the springs and hooks.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename exhaust.png
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The muffler is supported on vibration damping blocks.
+ All ball joints must be regularly greased with heat resistant lubricant
+ (Mouse Milk or Loctite Anti-Seize 297 431) to avoid damage.
+\end_layout
+
+\begin_layout Standard
+The springs must be secured loss and vibration with locking wire and Silicon
+ (see Rotax service Information 11 UL 87-E, p5)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename exhaust-springs.png
+	width 50col%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2125,6 +2421,7 @@ The tail wheel is steerable  and the aircraft is steered with with the rudder
 \align center
 \begin_inset Graphics
 	filename landing-gear.png
+	lyxscale 50
 	width 60col%
 
 \end_inset
@@ -2283,7 +2580,7 @@ below the left instrument console
 \end_layout
 
 \begin_layout Standard
-A fuel strainer is located <on the left bottom side of the firewall>.
+A fuel strainer is located on the left bottom side of the firewall.
  It is fitted with a quick drain and should be drained regularly through
  the access ports.
  In order to check the fuel system for possible moisture content, the quick
@@ -2294,14 +2591,7 @@ A fuel strainer is located <on the left bottom side of the firewall>.
 \end_layout
 
 \begin_layout Standard
-Idle cut-offs are incorporated in the throttle body and should always be
- used to stop the engines.
- This is accomplished by pulling the mixture control levels to the rearmost
- position.
-\end_layout
-
-\begin_layout Standard
-The Rotac 503 engine runs on an oil-gasoline mixture of 50:1.
+The Rotax 503 engine runs on an oil-gasoline mixture of 50:1.
  This mixture provides the engine with proper lubrication.
 \end_layout
 
@@ -2311,7 +2601,7 @@ The integrates oil pump will deliver the exact amount of oil required for
 \end_layout
 
 \begin_layout Standard
-Super two strole oil ASTM/CEC (Castrol TTS)
+Super two stroke oil ASTM/CEC (Castrol TTS)
 \end_layout
 
 \begin_layout Standard
@@ -2772,6 +3062,19 @@ Arm rests a headset jack, auxiliary power points and storage compartments
  in the baggage compartment.
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename seat.png
+	lyxscale 25
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Radio Equipment
 \end_layout
@@ -2802,7 +3105,7 @@ The flow of air for cooling the HiMax cabin may be controlled by <the ball
 \end_layout
 
 \begin_layout Part
-SECTION TWO OPERATING INSTRUCTIONS
+OPERATING INSTRUCTIONS
 \end_layout
 
 \begin_layout Section
@@ -2913,6 +3216,51 @@ Starting
 \end_layout
 
 \begin_layout Standard
+Before starting the engine, the pilot should set the parking brake and turn
+ on the master switch and the electric fuel pump.
+ When the engine is cold, (under 5 °C) prime the engine by advancing the
+ mixture control to RICH until fuel flow is indicated then pull back to
+ idle cut-off.
+ 
+\end_layout
+
+\begin_layout Standard
+After making sure that the propeller is clear, turn the magnetos on and
+ engage the starter.
+ As the engine fires, advance the mixture control.
+ If the above procedure does not start the engine, re-prime and repeat the
+ process.
+ Continue to load cylinders by priming or unload by turning the engine over
+ with the throttle open.
+ If the engine still doesn't start, check for malfunctioning of ignition
+ or fuel system.
+ 
+\end_layout
+
+\begin_layout Standard
+If the engine is hot, the priming steps should be omitted.
+ The fuel pump should remain OFF and the mixture control should remain in
+ idle cut-off until the engine fires.
+ 
+\end_layout
+
+\begin_layout Standard
+If the engine is flooded, the master switch and the magneto switches should
+ be ON, the electric fuel pump OFF, the throttle fully open and the mixture
+ control in idle cut-off.
+ When the starter is engaged and the engine fires, the throttle control
+ should be retarded and the mixture control advanced.
+ 
+\end_layout
+
+\begin_layout Standard
+Starter manufacturers recommend that cranking periods be limited to ten
+ seconds with a two minute rest between cranking periods.
+ Longer cranking periods will shorten the life of the starter.
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -2982,6 +3330,19 @@ Starter manufacturers recommend that cranking periods be limited to ten
  Longer cranking periods will shorten the life of the starter.
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename srarter.png
+	lyxscale 25
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 Cold engine
 \end_layout
@@ -2999,7 +3360,7 @@ Ignition on
 \end_layout
 
 \begin_layout Enumerate
-Engage strater (max 10 sec followed by 2 min cooldown)
+Engage starter (max 10 sec followed by 2 min cool down)
 \end_layout
 
 \begin_layout Enumerate
@@ -3014,6 +3375,22 @@ Remove choke
 Warm engine
 \end_layout
 
+\begin_layout Enumerate
+Throttle to idle
+\end_layout
+
+\begin_layout Enumerate
+Ignition on
+\end_layout
+
+\begin_layout Enumerate
+Engage starter (max 10 sec followed by 2 min cool down)
+\end_layout
+
+\begin_layout Enumerate
+After start, set idle
+\end_layout
+
 \begin_layout Section
 Warm-Up and Ground Check
 \end_layout
@@ -3022,7 +3399,7 @@ Warm-Up and Ground Check
 As soon as the engine starts, the oil pressure should be checked.
  If no pressure is indicated within thirty seconds, stop the engine and
  determine the trouble.
- (If a very cold temperature exists (-12 ºC or below) a little longer period
+ (If a very cold temperature exists (-12 °C or below) a little longer period
  of time may be necessary).
 \end_layout
 
@@ -3116,6 +3493,18 @@ Pre-Take Off:
 
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename aileron-hinge.png
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Take-Offs Climbs and Stalls
 \end_layout
@@ -3123,22 +3512,100 @@ Take-Offs Climbs and Stalls
 \begin_layout Standard
 After the take-off has proceeded to the point where a landing can no longer
  be made in event of power failure, the flap, if used, can be retracted.
- The throttle should be brought back to climbing power of 6000 RPM .
- The best rate of climb is obtained at 43 kts.
+ The throttle should be brought back to climbing power of 6000 RPM.
+ The best rate of climb is obtained at 43 kts V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+x
+\end_layout
+
+\end_inset
+
+.
  All controls are effective at speeds down through the stalling speed and
  stalls are gentle and easily controlled.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 STALL SPEED TABLE
 \end_layout
 
 \begin_layout Standard
-ConfigurationPower OffFlaps Retracted56 ktsFlaps Down 51 kts
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Configuration
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Power Off
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flaps Extended
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+26
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flaps Retracted
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-These figures are at gross weight (816 kg) in knots (kts).
+These figures are at gross weight (254 kg) in knots (kts).
 \end_layout
 
 \begin_layout Standard
@@ -3249,8 +3716,8 @@ Approaching power-off at 40 kts, the view of the runway ahead is unobstructed
 \end_layout
 
 \begin_layout Standard
-Three point landings are the reccommended method of landing the HiMax.
- A typical landing rollout can be as little as 60 meters, which is about
+Three point landings are the recommended method of landing the HiMax.
+ A typical landing roll-out can be as little as 60 meters, which is about
  the same as the distance to get airborne.
  This makes the HiMax suitable as a short strip machine.
  
@@ -3258,7 +3725,7 @@ Three point landings are the reccommended method of landing the HiMax.
 
 \begin_layout Standard
 During the roll-out it is prudent to be aware of of the fairly high C of
- G and narrow wheel track, which will create a tendancy to tip up on a wingtip
+ G and narrow wheel track, which will create a tendency to tip up on a wingtip
  in case of a ground-loop.
  
 \end_layout
@@ -3362,6 +3829,19 @@ Securing Aircraft:
 \begin_layout Standard
 Prior to shutdown, the engine should be run for 2 minutes at 3,000 RPM,
  then 15 seconds at idle (2,000 RPM) to allow latent heat build-up to dissipate.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename fuel-cog.png
+	lyxscale 50
+	width 30col%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -3503,8 +3983,12 @@ If an immediate, rapid descent is required from altitude, roll the airplane
  while simultaneously reducing the power to idle.
  Maintain a maximum of maneuvering speed (120 kts) during the spiral descent.
  The propeller will provide some drag at idle power.
- Operating at or near CLMAX will increase induced drag and assist with increasin
-g descent rate and controlling airspeed.
+ Operating at or near 
+\begin_inset Formula $Cl_{max}$
+\end_inset
+
+ will increase induced drag and assist with increasing descent rate and
+ controlling airspeed.
  If practical, slow below 85 kts, lower full flaps and maintain 2 to 2.5
  g maximum, or buffet onset, whichever occurs first.
 \end_layout
@@ -4095,7 +4579,7 @@ None permitted.
 \end_layout
 
 \begin_layout Part
-SECTION THREE
+CHARTS
 \end_layout
 
 \begin_layout Standard
@@ -4116,36 +4600,49 @@ CHARTS
 Performance Charts
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
 \begin_layout Subsection*
 TAKEOFF DISTANCE
 \end_layout
 
-\begin_layout Standard
-CONDITIONS:
+\begin_layout Plain Layout
+\noindent
+Flaps 17°
 \end_layout
 
-\begin_layout Standard
-Flaps 17° (set flap angle to match down aileron angle at full aileron)
+\begin_layout Plain Layout
+6800 RPM 
 \end_layout
 
-\begin_layout Standard
-6800 RPM, Full Throttle and Mixture Set prior to Brake Release
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 Paved, Level, Dry Runway
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
+\noindent
 Zero Wind
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename takeoff_distance.png
 	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -4165,6 +4662,7 @@ Full Flaps
 \end_layout
 
 \begin_layout Standard
+\noindent
 Power OFF
 \end_layout
 
@@ -4177,31 +4675,42 @@ Paved, Level, Dry Runway
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align left
 Zero Wind
 \end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
 \begin_layout Subsection*
 POWER REQUIRED - TAS
 \end_layout
 
-\begin_layout Standard
-CONDITIONS:
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
+\noindent
+\align left
 Standard atmosphere
 \end_layout
 
-\begin_layout Standard
-Mixture set to best power for 75% power.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
 	filename Rotax_503_perfromance.png
 	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -4256,22 +4765,35 @@ Standard atmosphere
 Mixture leaned
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
 \begin_layout Subsection*
 FUEL FLOW
 \end_layout
 
-\begin_layout Standard
-CONDITIONS:
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
+\noindent
+\align left
 Standard atmosphere
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename Rotax_503_fuel_consumption.png
 	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -4367,10 +4889,12 @@ Fin: Should be vertical and in line with centerline of fuselage.
 
 \begin_layout Enumerate
 Ailerons: Travel -30° up, 17° down.
+ (TADS 186 gives up:22° and down 15°)
 \end_layout
 
 \begin_layout Enumerate
 Flaps: Travel -45? down.
+ (TADS 186 gives up 6° and down 16°)
 \end_layout
 
 \begin_layout Enumerate
@@ -4379,7 +4903,8 @@ Elevator: -30° up and 15° down.
 
 \begin_layout Enumerate
 Rudder: Travel -35° left and 35° right.
- (+-30 in LAA TYPE ACCEPTANCE DATA SHEET TADS 186 TEAM MINIMAX 91)
+ (TADS 186 +-30° in LAA TYPE ACCEPTANCE DATA SHEET TADS 186 TEAM MINIMAX
+ 91)
 \end_layout
 
 \begin_layout Standard
@@ -4398,8 +4923,8 @@ For maximum service from the tires, keep the HiMax main wheels inflated
  to 3 bar and the nose wheel to 2 bar.
  Reverse the tires on the wheels, if necessary, to produce even wear.
  All HiMax wheels and tires are balanced before original installation and
- the relationship of tire, tube and wheel should be maintained upon reinstallati
-on.
+ the relationship of tire, tube and wheel should be maintained upon re-installat
+ion.
  Out-of-balance wheels can cause extreme vibration in the landing gear during
  take-off and landing.
  In the installation of new components, it may be necessary to re-balance
@@ -4693,8 +5218,8 @@ Serial Number Plate
 \end_layout
 
 \begin_layout Standard
-The serial number plate on the HiMax is located against the aft baggage
- compartment wall below the hat rack.
+The serial number plate on the HiMax is located against the upper right
+ corner of the firewall.
  The serial number of the plane should always be used in referring to the
  airplane in service or warranty matters.
 \end_layout
@@ -4732,7 +5257,7 @@ Rotax 503 Technical Specifications
 \size footnotesize
 \begin_inset Tabular
 <lyxtabular version="3" rows="29" columns="2">
-<features tabularvalignment="top">
+<features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="25col%">
 <column alignment="left" valignment="top" width="70col%">
 <row>
@@ -6433,7 +6958,7 @@ Cross country loading - Range
 \align center
 \begin_inset Graphics
 	filename himax_logo.png
-	width 10col%
+	width 40col%
 
 \end_inset
 
