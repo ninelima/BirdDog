@@ -2570,9 +2570,8 @@ below the left instrument console
 \noindent
 \align center
 \begin_inset Graphics
-	filename gascolator.png
-	lyxscale 25
-	width 50col%
+	filename fuel-system.png
+	width 80col%
 
 \end_inset
 
@@ -2606,6 +2605,19 @@ Super two stroke oil ASTM/CEC (Castrol TTS)
 
 \begin_layout Standard
 Gearbox oil API-GL5 or GL6, SAE 140 EP or 85W-140 EP.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename gascolator.png
+	lyxscale 25
+	width 50col%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -2650,31 +2662,12 @@ in the tail section behind the baggage compartment
 \end_inset
 
 >.
- (See Section IV, Sub Section III for maintenance.) A 12 Volt 
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-50 Ampere
-\end_layout
-
-\end_inset
-
- alternator is installed as standard equipment.
+ (See Section IV, Sub Section III for maintenance.) A 12 Volt 14 Ampere alternato
+r is installed as standard equipment.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-The Alternator switch is mechanically linked with the split master switch
- located on the lower right side of the instrument panel.
-\end_layout
-
-\end_inset
-
- A voltage regulator is included into the alternator itself.
+A voltage regulator is included into the alternator itself.
  The alternator provides charging current for the battery.
 \end_layout
 
@@ -2967,6 +2960,16 @@ B.
 
 \begin_layout Standard
 - Cigar Lighters
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename wiring-schematic.png
+	width 100col%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
