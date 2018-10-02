@@ -17,7 +17,7 @@ Counter section
          Within               part
 End 
 \end_local_layout
-\language english
+\language australian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -89,36 +89,11 @@ End
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Title
 \noindent
-\align center
 
 \size largest
-OWNERS HANDBOOK FOR OPERATION AND MAINTENANCE 
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-
-\size largest
-OF TEAM 1700R HIMAX AIRPLANE
+OWNERS HANDBOOK FOR OPERATION AND MAINTENANCE OF TEAM 1700R HIMAX AIRPLANE
 \end_layout
 
 \begin_layout Standard
@@ -173,21 +148,58 @@ Published by:
 \end_layout
 
 \begin_layout Standard
-PUBLICATIONS DEPARTMENT
-\end_layout
-
-\begin_layout Standard
 BOSLUIS Aerospace
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Revised: 2018-12
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Issued: 
 \family sans
 2018-12-12
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{empty}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -271,6 +283,10 @@ pagestyle{plain}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\noindent
 \begin_inset ERT
 status open
 
@@ -2398,16 +2414,17 @@ The HiMax is fitted with a simple sprung aluminium landing gear with the
 \begin_layout Standard
 Main wheels are 400x6 Matco (?) units with drum type brakes and 500x5 tires
  with a four ply rating.
- The tail wheel is a <Solid Phenolic>.The main wheel tires are tubeless.
+ The tail wheel is a <Solid Phenolic>.
+ The main wheel tires are tubeless.
  (See Section IV, Sub Section II for tire service).
 \end_layout
 
 \begin_layout Standard
-Main gear brakes are actuated by toe brake pedals on the front rudder pedals.
+Main gear brakes are actuated by a lever on the joystick.
  Brakes are cable actuated.
- <Hydraulic brake cylinders <?> located in front of the rudder pedals are
- readily accessible in the cockpit for servicing.> (See Section IV, Sub Section
- IV for brake service).
+ Cable adjusters are mounted on the joystick and are readily accessible
+ in the cockpit for servicing.
+ (See Section IV, Sub Section IV for brake service).
 \end_layout
 
 \begin_layout Standard
@@ -2561,9 +2578,22 @@ below the left instrument console
 \end_inset
 
 .
- Two electric fuel gauges directly in front of the fuel valve control indicate
+\end_layout
+
+\begin_layout Standard
+<How do we determine fuel quantity?>
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Two electric fuel gauges directly in front of the fuel valve control indicate
  the fuel quantity in each tank.
  
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4585,20 +4615,6 @@ None permitted.
 CHARTS
 \end_layout
 
-\begin_layout Standard
-CHARTS
-\end_layout
-
-\begin_layout Standard
-PageI.
- Performance Charts 46II.
- Power Charts55
-\end_layout
-
-\begin_layout Standard
-CHARTS
-\end_layout
-
 \begin_layout Section
 Performance Charts
 \end_layout
@@ -4628,6 +4644,7 @@ Paved, Level, Dry Runway
 
 \begin_layout Plain Layout
 \noindent
+\align left
 Zero Wind
 \end_layout
 
@@ -4643,7 +4660,53 @@ Zero Wind
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Subsection*
+LANDING DISTANCE 
+\end_layout
+
 \begin_layout Plain Layout
+Full Flaps
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+Power OFF
+\end_layout
+
+\begin_layout Plain Layout
+Maximum Braking
+\end_layout
+
+\begin_layout Plain Layout
+Paved, Level, Dry Runway
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+Zero Wind
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename landing_distance.png
+	width 100col%
+
+\end_inset
+
 
 \end_layout
 
@@ -4652,35 +4715,8 @@ Zero Wind
 
 \end_layout
 
-\begin_layout Subsection*
-LANDING DISTANCE
-\end_layout
-
 \begin_layout Standard
-CONDITIONS:
-\end_layout
 
-\begin_layout Standard
-Full Flaps
-\end_layout
-
-\begin_layout Standard
-\noindent
-Power OFF
-\end_layout
-
-\begin_layout Standard
-Maximum Braking
-\end_layout
-
-\begin_layout Standard
-Paved, Level, Dry Runway
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align left
-Zero Wind
 \end_layout
 
 \begin_layout Standard
@@ -4806,24 +4842,6 @@ Standard atmosphere
 \begin_layout Section
 II.
  Power Charts
-\end_layout
-
-\begin_layout Standard
-SECTION FOURGENERAL MAINTENANCE PageI.
- Leveling and Rigging60II.
- Tire Inflation62III.
- Battery Service62IV.
- Brake Service62V.
- Landing Gear Service64VI.
- Hydraulic System Service67
-\end_layout
-
-\begin_layout Standard
-VII.
- Fuel Requirements68VIII.
- Care of Air Filter69 IX.
- Care of Windshield and 69X.
- Serial Number Plate69
 \end_layout
 
 \begin_layout Standard
@@ -7076,11 +7094,7 @@ Mixture FULL RICH
 \end_layout
 
 \begin_layout Itemize
-Fuel pump ON 
-\end_layout
-
-\begin_layout Itemize
-until flow indication) 
+Fuel pump ON (until flow indication) 
 \end_layout
 
 \begin_layout Itemize
@@ -7444,7 +7458,7 @@ Pitch SET
 \end_layout
 
 \begin_layout Itemize
-Throttle ??? RPM
+Throttle 6000 RPM ?
 \end_layout
 
 \begin_layout Itemize
