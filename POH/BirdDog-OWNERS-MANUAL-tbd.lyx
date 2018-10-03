@@ -4167,7 +4167,7 @@ Carburetor
 \end_layout
 
 \begin_layout Standard
-1 x BING 36mm (1.42 in.) hand lever choke
+2 x BING 36mm (1.42 in.) hand lever choke
 \end_layout
 
 \begin_layout Section
@@ -4716,10 +4716,6 @@ Zero Wind
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -4941,7 +4937,7 @@ Tire Inflation
 
 \begin_layout Standard
 For maximum service from the tires, keep the HiMax main wheels inflated
- to 3 bar and the nose wheel to 2 bar.
+ to 2(?) bar.
  Reverse the tires on the wheels, if necessary, to produce even wear.
  All HiMax wheels and tires are balanced before original installation and
  the relationship of tire, tube and wheel should be maintained upon re-installat
@@ -6984,6 +6980,833 @@ Cross country loading - Range
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+APPENDIX
+\end_layout
+
+\begin_layout Section
+WEIGHT AND BALANCE 
+\end_layout
+
+\begin_layout Standard
+Once your TEAM aircraft is fully assembled for the first time, the initial
+ order of business (before flying) must be to determine the weight and balance
+ of the aircraft.
+ 
+\end_layout
+
+\begin_layout Standard
+This is not just an academic exercise - the location of the center of gravity
+ is critical to the handling of the aircraft.
+ 
+\end_layout
+
+\begin_layout Standard
+The process is very simple, if you have access to a couple of accurate scales
+ which will measure up to about half the aircraft weight each.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Place the aircraft on scales in a level flight position, longerons level
+ to the hori zon (spanwise and chordwise).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Drop a plumb bob over the leading edge of the wing near the wing root and
+ mark location on the floor.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Locate a second point on the floor directly below the centerline of the
+ front axle tube.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Also locate a third point on the floor using the plumb bob or equivalent,
+ directly under the centerline of the tailwheel.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The distance in inches between points located in Step #2 and Step #3 can
+ be called DM (Distance Main wheels).
+ 
+\end_layout
+
+\begin_layout Enumerate
+The distance in inches between points located in Step #2 and Step #4 can
+ be called DT (Distance Tail wheel).
+ 
+\end_layout
+
+\begin_layout Enumerate
+With the pilot seated in the cockpit, record the total weight on the scales
+ of both front wheels.
+ This can be called WM (Weight Main wheels).
+ 
+\end_layout
+
+\begin_layout Enumerate
+With pilot still on board, record weight on the tail wheel.
+ This can be called WT (Weight Tail wheel).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Next, multiply (WM) x (DM).
+ This figure is called a Moment MMW (Moment Main Wheels).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Do the same for (WT) x (DT) to get MTW (Moment Tail Wheel).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Now add together (WM) + (WT).
+ This is the TAW or total aircraft weight.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Add the two moments determined in Steps #9 and 10 (MMW + MTW) to get TM
+ (Total Moment).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Divide this figure.
+ TM, by the total aircraft weight TAW (from Step #11).
+ 
+\end_layout
+
+\begin_layout Enumerate
+The answer will be the distance in inches from the wing leading edge to
+ the Center of Gravity (C.G.).
+ 
+\end_layout
+
+\begin_layout Enumerate
+To find the C.G.
+ in percent of the wing chord, divide this answer by the chord (54 inches).
+ 
+\end_layout
+
+\begin_layout Standard
+For all TEAM aircraft, the C.G.
+ should be between 11.3 and 16.2 inches, or 21 % to 30%.
+ Optimum flight characteristics have been obtained with the C.G.
+ at approximately 28-29%.
+ 
+\end_layout
+
+\begin_layout Standard
+Fuel weight will have a slight effect as it burns off, and you may wish
+ to calculate the C.G.
+ location with both empty and full tank(s).
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename pasted1.png
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now refer to the correct weight and balance envelope for your model Draw
+ a line straight up from the "total weight." and a horizontal line straight
+ across from the C.G.
+ location.
+ 
+\end_layout
+
+\begin_layout Standard
+If these lines intersect in area "A." your aircraft falls into the equivalent
+ "utility" category, and is safe for maneuvers not exceeding a load factor
+ of +4 4 and -1.8 G`s.
+ 
+\end_layout
+
+\begin_layout Standard
+If you fall within area "B." your aircraft falls within the "Standard" category,
+ and is good to +3.8 and -1.5 G's.
+ 
+\end_layout
+
+\begin_layout Standard
+In many cases, you may find that, with empty tanks you fall within one category
+ and with full tanks, the other.
+ If this is so you may need to experiment with partially filled tanks to
+ determine your actual limits.
+ 
+\end_layout
+
+\begin_layout Standard
+If you have installed optional tanks (for example an additional 5 gallon
+ tank behind the seat), you may fall within the proper weight and balance
+ envelope with tanks empty and full, but the center of gravity may actually
+ be too far aft with the forward tanks empty and the rear tank full.
+ In this case, you should always use fuel from the rear tank first.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename pasted2.png
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+LOADED WEIGHT AND BALANCE CHART 
+\end_layout
+
+\begin_layout Standard
+DM=_______ DT= ________WM= ________ WT= _______ 
+\end_layout
+
+\begin_layout Standard
+Main Wheel Moment: 
+\end_layout
+
+\begin_layout Standard
+WM_______ x DM ________= MMW________ 
+\end_layout
+
+\begin_layout Standard
+Tail Wheel Moment: 
+\end_layout
+
+\begin_layout Standard
+WT _______x DT ________=MTW ________ 
+\end_layout
+
+\begin_layout Standard
+Total Aircraft Weight: 
+\end_layout
+
+\begin_layout Standard
+WM _______ + WT_________= TAW________ 
+\end_layout
+
+\begin_layout Standard
+Next, add the two moments: 
+\end_layout
+
+\begin_layout Standard
+MMW________+ MTW ________ =________ TM 
+\end_layout
+
+\begin_layout Standard
+Next, divide total moment by total weight: 
+\end_layout
+
+\begin_layout Standard
+TM_______ / TAW________ = ________ " CG.
+ 
+\end_layout
+
+\begin_layout Standard
+CG _______ /54 ________ % Chord.
+ 
+\end_layout
+
+\begin_layout Standard
+CG should be between 11.3" and 16.2" % Chord should be between 21% and 30%.
+ Optimum flight characteristics have been obtained with the C.G.
+ at approximately 28-29%.
+ 
+\end_layout
+
+\begin_layout Standard
+----------------------- Page 25-----------------------
+\end_layout
+
+\begin_layout Standard
+WEIGHT AND BALANCE ENVELOPE MAX-103 
+\end_layout
+
+\begin_layout Standard
+SEPTEMBER 1998 
+\end_layout
+
+\begin_layout Standard
+TOTAL WEIGHT, INCLUDING PILOT, LBS MAX-103 
+\end_layout
+
+\begin_layout Standard
+WEIGHT AND BALANCE 
+\end_layout
+
+\begin_layout Standard
+----------------------- Page 26-----------------------
+\end_layout
+
+\begin_layout Standard
+WEIGHT AND BALANCE ENVELOPE MINIMAX ZMAX.
+ HiMAX 
+\end_layout
+
+\begin_layout Standard
+SEPTEMBER 1998 
+\end_layout
+
+\begin_layout Standard
+TOTAL WEIGHT.
+ INCLUDING PILOT.
+ LBS MINIMAX, HIMAX, ZMAX WEIGHT AND BALANCE 
+\end_layout
+
+\begin_layout Standard
+----------------------- Page 27-----------------------
+\end_layout
+
+\begin_layout Standard
+WEIGHT AND BALANCE ENVELOPE VMAX, EROS 
+\end_layout
+
+\begin_layout Standard
+SEPTEMBER 1998 
+\end_layout
+
+\begin_layout Standard
+TOTAL WEIGHT, INCLUDING PILOT, LBS TEAM V-MAX AND EROS WEIGHT AND BALANCE
+ 
+\end_layout
+
+\begin_layout Standard
+----------------------- Page 28----------------------- 
+\end_layout
+
+\begin_layout Section
+FLIGHT TEST PROCEDURES 
+\end_layout
+
+\begin_layout Standard
+Flight test of your new TEAM aircraft must be preceded by a verv careful
+ preparation.
+ 
+\end_layout
+
+\begin_layout Standard
+First, prepare yourself.
+ You should have a reasonable proficiency in flying taildragger airplanes
+ such as Piper Cubs.
+ Aeronca Champs, or the like.
+ Ultralight experience would also be very valuable.
+ At least some of your flight time in such airplanes should be at least
+ proficient to solo these airplanes.
+ Also read the following section "Reflections on your first flight." to get
+ an idea of what your fellow builders have learned from their experiences.
+ 
+\end_layout
+
+\begin_layout Standard
+Next, perform the weight and balance calculations of appendix A.
+ Do not attempt any flights, even high speed taxi, before completing this
+ step! 
+\end_layout
+
+\begin_layout Standard
+Now perform the most thorough preflight you have ever done.
+ Have your pilot friends, and any one else available perform a thorough
+ preflight.
+ At least one of you should find the loose nut, the empty gas tank, loose
+ prop bolts, unsafetied wing pins, or other discrepancies you forgot during
+ assembly.
+ 
+\end_layout
+
+\begin_layout Standard
+Engine run-in should have been performed per the engine manual instructions.
+ 
+\end_layout
+
+\begin_layout Standard
+The first order of business is simply to practice taxiing the aircraft,
+ which will familiarize you with the ground attitude and handling characteristic
+s.
+ A grass runway is preferable for the early testing and flights, especially
+ for low time taildragger pilots.
+ Tail down and tail up taxiing should be done, with several runs up and
+ down the runway.
+ Note the tachometer and airspeed readings.
+ You should probably burn at least one-half a tank of gasoline during this
+ phase.
+ Just in case, be mentally prepared to fly, since the aircraft is probably
+ much lighter than anything else you've flown, and you will be airborne
+ before you expect it.
+ 
+\end_layout
+
+\begin_layout Standard
+Now.
+ repeat the thorough preflight to detect any looseness that developed during
+ the taxi runs.
+ Vibration may have loosened any improper glue joints or improperly tightened
+ or safetied fittings by this time.
+ 
+\end_layout
+
+\begin_layout Standard
+Refill the gas tank, and prepare for your first flight! 
+\end_layout
+
+\begin_layout Standard
+There are two common approaches to the first flight.
+ One approach is to make a series of "crow hops", where you fly a short
+ distance at just a few feet of altitude and then land straight ahead before
+ reaching the end of the runway.
+ This is advantageous in case anything goes wrong (such as an engine failure),
+ but has the disadvantage of keeping the aircraft in the most hazardous
+ regime (close to the ground at low speed) for a relatively long time.
+ We would recommend this approach if you arc an experienced pilot with a
+ long runway available.
+ 
+\end_layout
+
+\begin_layout Standard
+The other approach is to make the first flight a complete circuit of the
+ pattern.
+ The disadvantage is, of course, that if anything goes wrong (again, such
+ as an engine failure or missing nut or bolt), you are further from mother
+ earth.
+ The advantage is that you have more space to learn the feel of the airplane
+ without worrying about inadvertently contacting something hard (like the
+ ground).
+ 
+\end_layout
+
+\begin_layout Standard
+Whichever approach you choose, you eventually have to get away from the
+ runway! Plan your first flight so as to have a place to land at all times
+ if the engine fails.
+ 
+\end_layout
+
+\begin_layout Standard
+Again, a grass runway, if you have one available, is more forgiving of a
+ taildragger aircraft.
+ If not, remember that TEAM aircraft without the optional brakes tend to
+ roll freely on pavement.
+ Perform your take- off checks using the printed list as a guideline.
+ Taxi to the runway centerline, just as you did on the taxi runs or your
+ "crow hops", but-tis time you fly!! 
+\end_layout
+
+\begin_layout Standard
+Smoothly add power until the throttle is fully open, correcting for "torque"
+ effects (note that left - not right - rudder will probably be required
+ with the V-MAX and Rotax powered models).
+ 
+\end_layout
+
+\begin_layout Standard
+Note that TEAM aircraft are lighter than most other experimental, and accelerate
+ very rapidly.
+ Use forward stick to raise the tail (if you are not already airborne!)
+ for your first few flights.
+ At an airspeed of 30-35 mph (calibrated air speed) raise the nose to lift
+ off.
+ 
+\end_layout
+
+\begin_layout Standard
+Allow the aircraft to accelerate to about 45-50 mph for a normal climb.
+ This will allow adequate energy for a power off landing if the engine fails.
+ Remember - normal engine out approach speed is minimum 45 mph.
+ 
+\end_layout
+
+\begin_layout Standard
+Once you achieve several hundred feet of altitude, you may begin experimenting
+ with the controls.
+ When you are comfortable with plenty of altitude, you should try a few
+ stalls.
+ Power off, you probably will not get a good stall break, since the windmilling
+ propeller reduces the elevator effectiveness.
+ In this "mushing" mode, the ailerons should remain effective, although
+ more rudder will be required for coordination.
+ 
+\end_layout
+
+\begin_layout Standard
+We have down the aircraft to speeds just above stall with full power.
+ In this condition, vigorous use of the ailerons may result in the wing
+ with the "down" aileron stalling and a roll opposite aileron deflection.
+ Relaxation of the back pressure on the stick and use of rudder and aileron
+ will result in rapid recovery.
+ 
+\end_layout
+
+\begin_layout Standard
+Slips are effective in increasing drag and steepening the glide angle.
+ Experiment first with plenty of altitude to get accustomed to slip characterist
+ics.
+ 
+\end_layout
+
+\begin_layout Standard
+The first landing should be performed with no flaps and a little power since
+ the MAXes have a fairly steep glide angle.
+ Maintain an approach speed of 50-55 mph and an approach path similar to
+ a Champ or Cub.
+ 
+\end_layout
+
+\begin_layout Standard
+For the first few landings, continue to fly the airplane on with a little
+ power and a slightly nose up attitude as you near the ground.
+ After touchdown, hold the stick full back to keep the tailwheel on the
+ ground for steering and close the throttle.
+ 
+\end_layout
+
+\begin_layout Standard
+As you get accustomed to the characteristics, try power off landings, maintainin
+g an airspeed of at least 50 mph into the flare.
+ Note that this airplane is not a floater, and once you flare, you are down.
+ 
+\end_layout
+
+\begin_layout Standard
+Congratulations, you are now a proud TEAM Aircraft owner and pilot! Many
+ more hours of pleasurable flying await you, providing you exercise the
+ proper care and good judgment as "pilot-in- command".
+ 
+\end_layout
+
+\begin_layout Standard
+Reflections on Your First Flight 
+\end_layout
+
+\begin_layout Standard
+With many TEAM aircraft now flying, we have had an opportunity to receive
+ feedback about many of your fellow builders first flights and how they
+ went.
+ Some of this accumulated wisdom may help you on your first flight.
+ 
+\end_layout
+
+\begin_layout Enumerate
+If a soft grass area is available for first flights, by all means use it.
+ The aircraft (and any light taildragger) will handle much more smoothly
+ and be more docile on grass, whereas on pavement, it can be much more sensitive.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Very little forward stick is needed to raise the tail on takeoff.
+ For a pilot accus tomed to flying a Champ or Piper Cub, the tail of a MAX
+ will come up much faster than you think, in fact, just about everything
+ will happen much faster than you expect! Stick slightly forward is sufficient,
+ and apply power slowly.
+ 
+\end_layout
+
+\begin_layout Enumerate
+After your initial take-off and climb-out, if the cylinder head temperature
+ is OK and the engine is running smoothly, take your time and don't be in
+ a rush to land.
+ Get some altitude and feel out the airplane's handling.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Shoot two or three long, leisurely approaches to accustom yourself to how
+ the aircraft responds to the controls and the throttle.
+ 
+\begin_inset Newline newline
+\end_inset
+
+The elevator trim tab will need to be adjusted (unless you have the optional
+ electric adjustable tab), and you will need time to relax in the air and
+ evaluate your specific needs.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Even high time pilots accustomed to flying heavier, faster airplanes will
+ need to re-adjust their reactions in ultralight aircraft.
+ 
+\begin_inset Newline newline
+\end_inset
+
+First of all, the plane will react faster to changes in the throttle, and
+ will slow down faster than anything else you have flown.
+ The power off glide will be much steeper than you think, and you will need
+ extra airspeed to have enough energy to flare for the landing - and when
+ you begin to flare, you will slow down very quickly! 
+\end_layout
+
+\begin_layout Enumerate
+From our experience and feedback we have received, we recommend you do not
+ use flaps (if installed) for your initial flights, and never for a power
+ off landing, since there is insufficient elevator power to overcome the
+ nose down pitching ten dency with the flaps lowered.
+ 
+\begin_inset Newline newline
+\end_inset
+
+The only reason flaps were included in the original design was to meet the
+ requirements of the Federal Aviation Regulations, part 103, specifically
+ the minimum stall speed.
+\begin_inset Newline newline
+\end_inset
+
+The only time we recommend using the flaps is for soft field take-offs and
+ possibly for soft field landings, when you can make a long, shallow power-on
+ approach.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Many of you have called after your first flights and commented on how strong
+ the landing gear is.
+ In our conversations with you, we have found several common reasons for
+ frequent hard landings:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+First, many of you tend to use flaps for your first landings, perhaps from
+ previous habits learned in "regular" airplanes.
+ As mentioned above, flaps cause a nose down pitch, and you slow down to
+ flare, you run out of elevator power and can't get the nose up to complete
+ the flare.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Second, many people are making their approach too slow, resulting in, again,
+ running out of elevator power in the flare.
+ One reason for this might be an erroneous airspeed indication, since in
+ many of these cases, the pilot claimed a top speed, with a Rotax 277 engine,
+ of about 85 mph! You can certainly rest assured that such an airspeed is
+ incorrect, since the top speed of a 277 powered MAX-103 should be about
+ 70 mph.
+ The cause of the inaccuracy is probably the location of the static pressure
+ pick-up.
+ The section labeled "STATIC PRESSURE MEASURE- MENT" may enlighten you on
+ improving this situation.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Third, the MAX planes, being small and light, have a relatively sleep glide
+ angle with power off.
+ For example, a Cessna 150 will glide about 10 feet forward for each foot
+ of altitude loss, whereas a MAX will only manage about 6.5 feet forward
+ for each foot of altitude.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+If you are accustomed to typical light planes, you may be fooled into flying
+ a too shallow approach and getting too slow.
+ To avoid this, make your first approaches with power on at an airspeed
+ of about 50-55 mph.
+ Make a few practice approaches first a high altitude so you will have a
+ chance to evaluate the glide and airspeed control without worrying about
+ contacting the ground.
+ 
+\end_layout
+
+\begin_layout Standard
+After you have made a few power on landings, try a power off (or idle) glide
+ at altitude to see what nose down attitude is necessary to maintain an
+ airspeed of about 60 mph (which is a good airspeed for your initial power
+ off approaches).
+ It will probably be a lot steeper than you expect.
+ 
+\end_layout
+
+\begin_layout Standard
+Incidentally, don't perform power off glides for more than 20-30 seconds
+ at a time without adding power, otherwise, you may load up the engine and
+ have to shoot a real power off approach before you really want to! 
+\end_layout
+
+\begin_layout Section
+STATIC PRESSURE MEASUREMENT 
+\end_layout
+
+\begin_layout Standard
+Errors in airspeed measurement are usually caused by an inaccurate static
+ pressure measurement.
+ If you just leave the static port on the airspeed indicator open to cockpit
+ air, this will probably give a very optimistic airspeed reading.
+ 
+\end_layout
+
+\begin_layout Standard
+A simple and reasonably accurate position for the static ports has been
+ found to be on the fuselage sides along the diagonal braces between the
+ top and bottom longerons in the fuselage bay just forward of the front
+ horizontal stabilizer attach points (both sides).
+ These diagonals are easily reached with the tail removed, so it is a simple
+ retrofit.
+ 
+\end_layout
+
+\begin_layout Standard
+The following figure shows how we have installed the static ports on our
+ factory airplanes.
+ You can probably find all the materials in your scrap box.
+ 
+\end_layout
+
+\begin_layout Standard
+Just glue a 3/4 inch square by 1-1/2 inch long pine block to a 1-1/2 inch
+ square piece of 1/8 inch plywood.
+ Drill a 3/16 or 1/4 inch hole in which to glue a short piece of tubing
+ of the same outside diameter and about 1-1/2 inch long, as shown.
+ Make one for each side, of course.
+ 
+\end_layout
+
+\begin_layout Standard
+Then glue these assemblies to the above mentioned diagonal braces on both
+ sides, being sure to also glue the fabric to the plywood.
+ Glue a 1 inch (approximate) disk of thin aluminum or plastic to the fabric
+ covering right over the plywood, and, once the glue has cured, drill a
+ 1/16 inch hole through the center of the disk and the plywood.
+ 
+\end_layout
+
+\begin_layout Standard
+Connect a piece of plastic or rubber tubing between the static port on your
+ airspeed indicator and the tubes that you just installed protruding into
+ the fuselage, using a plastic "T" as shown, being sure to route the tubing
+ so that it is clear of the control cables and will not chafe through the
+ fabric.
+ 
+\end_layout
+
+\begin_layout Standard
+You should then calibrate your system by flying a known distance in two
+ directions for several airspeeds, ranging from your normal landing approach
+ speed up to maximum level speed, timing the passes.
+ Convert the time and distance into speed and you have an airspeed indicator
+ calibration.
+ 
+\end_layout
+
+\begin_layout Standard
+For further details on airspeed and other calibrations, see the article
+ written by TEAM for the November 1987 issue of the EXPERIMENTER (back copies
+ available from the EAA).
+ 
+\end_layout
+
+\begin_layout Standard
+Airspeed errors can also be caused by an improperly located pitot tube.
+ We usually attach the pitot tube to the wing strut (either side will do),
+ but you have to be careful.
+ If you locate the pitot too far inboard (close to the fuselage), it will
+ be influenced by the high speed prop wash, giving a high airspeed indication.
+ 
+\end_layout
+
+\begin_layout Standard
+Likewise, locating it too far outboard (resulting in the pitot being too
+ close to the wing) can result in an improper reading.
+ We have found the best location to be just below the strut about 12 inches
+ from the outboard strut-to-wing bolt.
+ This should put the pitot tube about 8-9 inches below the lower wing surface.
+ 
+\end_layout
+
+\begin_layout Standard
+Static Port Installation: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename static-port.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+ELEVATOR TRIM TABS 
+\end_layout
+
+\begin_layout Standard
+In order to trim your MAX for hands off flight in level flight, an elevator
+ trim tab is required.
+ If you have installed the optional electric trim tab.
+ this is all you require.
+ If not.
+ a ground adjustable tab is needed.
+ This is due to two things: First, the wide chord wing and highly cambered
+ airfoil cause a large nose down pitching moment; and second, the elevator
+ is relatively large and heavy and tends to droop.
+ 
+\end_layout
+
+\begin_layout Standard
+A simple trim tab can be mounted as follows: Cut the tab from 0.020 inch
+ aluminum sheet, approximately 3" by 24" (actually, we usually use aluminum
+ siding - which has the additional advantage of a 10 year warranty!).
+ Make a 10 degree bend 3/4
+\begin_inset Quotes erd
+\end_inset
+
+ from one (long) edge.
+ Bolt or pop rivet about every 3 inches to the trailing edge of the elevator,
+ with the tab deflected down.
+ This 10 degree bend is preliminary, and can be adjusted as needed until
+ you can fly hands-off.
+ 
+\end_layout
+
+\begin_layout Standard
+----------------------- Page 37-----------------------
+\end_layout
+
+\begin_layout Standard
+APPENDIX E 
+\end_layout
+
+\begin_layout Standard
+----------------------- Page 38-----------------------
+\end_layout
+
+\begin_layout Standard
+APPENDIX E 
 \end_layout
 
 \begin_layout Standard
