@@ -14,3 +14,7 @@ CHT 260 degC
 EGT 460 - 580 (650max)  ... check this? same as 503 582?
 
 
+Wing Chord 1352 mm
+Win Thickness 194 mm
+
+T/C = 14%
