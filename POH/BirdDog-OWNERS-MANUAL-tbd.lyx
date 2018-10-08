@@ -21,11 +21,11 @@ End
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "Haettenschweiler"
+\font_roman "bookman" "Haettenschweiler"
 \font_sans "default" "default"
 \font_typewriter "default" "Consolas"
 \font_math "auto" "auto"
-\font_default_family ttdefault
+\font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
@@ -2451,22 +2451,7 @@ Hydraulic System
 \end_layout
 
 \begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-The hydraulic system is used for the individual actuation of the Cleveland
- calipers on the main wheels.
- The operation of these units is accomplished by applying pressure to the
- toe-brakes which is fitted to the rudder pedals.A hydraulic brake fluid
- is supplied from reservoir is located on the firewall to the two master
- cylinders attached to the toe-brakes.
- The level of hydraulic fluid should be checked regularly.
-\end_layout
-
-\end_inset
-
-
+N/A
 \end_layout
 
 \begin_layout Section
@@ -2567,17 +2552,7 @@ Fuel can thus be used from one tank or the other, by switching the main
 
 \end_inset
 
-The fuel valve control is located 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-below the left instrument console
-\end_layout
-
-\end_inset
-
-.
+The fuel valve control is located in the middle below the instrument panel.
 \end_layout
 
 \begin_layout Standard
@@ -3123,9 +3098,8 @@ Ventilation
 \end_layout
 
 \begin_layout Standard
-The flow of air for cooling the HiMax cabin may be controlled by <the ball
- valve on instrument panel.> Air is exhausted through an outlet on the rear
- of the cabin.
+The flow of air for cooling the HiMax cabin may be controlled by <??>.
+ Air is exhausted through an outlet on the rear of the cabin.
 \end_layout
 
 \begin_layout Standard
@@ -4014,8 +3988,13 @@ If an immediate, rapid descent is required from altitude, roll the airplane
  while simultaneously reducing the power to idle.
  Maintain a maximum of maneuvering speed (120 kts) during the spiral descent.
  The propeller will provide some drag at idle power.
- Operating at or near 
-\begin_inset Formula $Cl_{max}$
+ Operating at or near Cl
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+max
+\end_layout
+
 \end_inset
 
  will increase induced drag and assist with increasing descent rate and
@@ -4173,39 +4152,7 @@ Low Power Low RPM Cruise
 \end_layout
 
 \begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-The high price of aviation fuel is causing aircraft owners and pilots to
- review their operations in search of ways to keep operating costs down.
- Those operating aircraft with controllable propellers have been requesting
- information on cruise operation in the low RPM range - 1800 or 1900 RPM
- for example.
- The number of queries received indicates great deal of interest and therefore
- it seems appropriate to share the information on this subject with all
- of our readers.The Textron Lycoming Engine Operator's Manual has performance
- curves applicable to each engine series.
- The curve for the IO-360-M1B series, 180 horsepower engine imprinted here
- as a reference for this article.
- The curve does provide data on the maximum manifold pressure (MP), which
- may be used with any particular RPM at sea level and at altitude.
- The limiting manifold pressure line clearly restricts high manifold pressures
- with low RPM settings.
- There is a good reason for this; high manifold pressure and low RPM is
- similar to allowing your automobile to lug uphill in fourth gear.
- The pinging you hear in your automobile tells you that detonation is occurring
- and you should shift down to a lower gear.
- In an aircraft, detonation is not likely to be heard as damage occurs in
- the engine and it is then too late for preventive measures.
- For this reason, engine operation should be within the limitations established
- in the Pilot's Operating Handbook (POH).
- 
-\end_layout
-
-\end_inset
-
-
+N/A
 \end_layout
 
 \begin_layout Section
@@ -4904,7 +4851,7 @@ Fin: Should be vertical and in line with centerline of fuselage.
 
 \begin_layout Enumerate
 Ailerons: Travel -30° up, 17° down.
- (TADS 186 gives up:22° and down 15°)
+ (TADS 186 gives up 22° and down 15°)
 \end_layout
 
 \begin_layout Enumerate
@@ -5062,24 +5009,7 @@ Hydraulic System Service
 \end_layout
 
 \begin_layout Standard
-\begin_inset Phantom Phantom
-status open
-
-\begin_layout Plain Layout
-The hydraulic system is filled by adding fluid to the reservoir, located
- on the firewall.
- Only petroleum base hydraulic fluid, MIL-PRF-5606, should be used.To add
- fluid to the system, remove the cap from the filler neck and fill the system
- completely while holding the filler tube extension level.
- Then turn the elbow on the filler tube down until the excess oil has drained
- out.
- (See separate instructions for filling, cleaning and bleeding the complete
- hydraulic system).
-\end_layout
-
-\end_inset
-
-
+N/A
 \end_layout
 
 \begin_layout Section
@@ -6249,7 +6179,7 @@ status open
 
 \begin_layout Plain Layout
 For all TEAM aircraft, the C.G.
- should be between 11.3 and 16.2 inches, or 21 % to 30%.
+ should be between 11.3 and 16.2 inches, or 21-30%.
  
 \end_layout
 
@@ -7191,53 +7121,53 @@ If you have installed optional tanks (for example an additional 5 gallon
 LOADED WEIGHT AND BALANCE CHART 
 \end_layout
 
-\begin_layout Standard
-DM=_______ DT= ________WM= ________ WT= _______ 
+\begin_layout LyX-Code
+DM = _______ DT = ________ WM= ________ WT= _______ 
 \end_layout
 
-\begin_layout Standard
+\begin_layout LyX-Code
 Main Wheel Moment: 
 \end_layout
 
-\begin_layout Standard
-WM_______ x DM ________= MMW________ 
+\begin_layout LyX-Code
+WM _______ x DM ________ = MMW ________ 
 \end_layout
 
-\begin_layout Standard
+\begin_layout LyX-Code
 Tail Wheel Moment: 
 \end_layout
 
-\begin_layout Standard
-WT _______x DT ________=MTW ________ 
+\begin_layout LyX-Code
+WT _______ x DT ________ = MTW ________ 
 \end_layout
 
-\begin_layout Standard
+\begin_layout LyX-Code
 Total Aircraft Weight: 
 \end_layout
 
-\begin_layout Standard
-WM _______ + WT_________= TAW________ 
+\begin_layout LyX-Code
+WM _______ + WT_________ = TAW ________ 
 \end_layout
 
-\begin_layout Standard
+\begin_layout LyX-Code
 Next, add the two moments: 
 \end_layout
 
-\begin_layout Standard
-MMW________+ MTW ________ =________ TM 
+\begin_layout LyX-Code
+MMW ________ + MTW ________ =________ TM 
 \end_layout
 
-\begin_layout Standard
+\begin_layout LyX-Code
 Next, divide total moment by total weight: 
 \end_layout
 
-\begin_layout Standard
-TM_______ / TAW________ = ________ CG.
+\begin_layout LyX-Code
+TM _______ / TAW _________ = ________ CG.
  
 \end_layout
 
-\begin_layout Standard
-CG _______ /54 ________ % Chord.
+\begin_layout LyX-Code
+CG _______ / 54  _________ % Chord.
  
 \end_layout
 
@@ -7258,7 +7188,7 @@ FLIGHT TEST PROCEDURES
 \end_layout
 
 \begin_layout Standard
-Flight test of your new TEAM aircraft must be preceded by a verv careful
+Flight test of your new TEAM aircraft must be preceded by a very careful
  preparation.
  
 \end_layout
@@ -7637,10 +7567,10 @@ The following figure shows how we have installed the static ports on our
 \end_layout
 
 \begin_layout Standard
-Just glue a 3/4 inch square by 1-1/2 inch long pine block to a 1-1/2 inch
- square piece of 1/8 inch plywood.
+Just glue a 3/4 inch square by 1½ inch long pine block to a 1½ inch square
+ piece of 1/8 inch plywood.
  Drill a 3/16 or 1/4 inch hole in which to glue a short piece of tubing
- of the same outside diameter and about 1-1/2 inch long, as shown.
+ of the same outside diameter and about 1½ inch long, as shown.
  Make one for each side, of course.
  
 \end_layout
