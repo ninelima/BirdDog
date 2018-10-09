@@ -8,6 +8,7 @@
 \begin_preamble
 \usepackage{chngcntr}
 \counterwithin*{section}{part}
+\usepackage[none]{hyphenat}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -67,7 +68,6 @@ End
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 10page%
 \topmargin 10pheight%
 \secnumdepth 3
 \tocdepth 3
@@ -93,7 +93,7 @@ End
 \noindent
 
 \size largest
-OWNERS HANDBOOK FOR OPERATION AND MAINTENANCE OF TEAM 1700R HIMAX AIRPLANE
+OWNERS HANDBOOK FOR OPERATION AND MAINTENANCE OF 1700R HIMAX AIRPLANE
 \end_layout
 
 \begin_layout Standard
@@ -105,35 +105,40 @@ OWNERS HANDBOOK FOR OPERATION AND MAINTENANCE OF TEAM 1700R HIMAX AIRPLANE
 
 \begin_layout Standard
 \noindent
-\align center
-NOTICE 
-\end_layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
 
-\begin_layout Standard
-THIS HANDBOOK IS NOT DESIGNED, NOR CAN ANY HANDBOOK SERVE, AS A SUBSTITUTE
- FOR ADEQUATE AND COMPETENT FLIGHT INSTRUCTION, OR KNOWLEDGE OF THE CURRENT
- AIRWORTHINESS DIRECTIVES, THE APPLICABLE AIR REGULATIONS AND ADVISORY CIRCULARS.
- IT IS NOT INTENDED TO BE A GUIDE OF BASIC FLIGHT INSTRUCTION NOR A TRAINING
- MANUAL.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \noindent
-THE HANDBOOK IS DESIGNED TO: 
+NOTICE :
 \end_layout
 
-\begin_layout Enumerate
-HELP YOU OPERATE YOUR HIMAX WITH SAFETY AND CONFIDENCE.
+\begin_layout Plain Layout
+This handbook is not designed, nor can any handbook serve, as a substitute
+ for adequate and competent flight instruction, or knowledge of the current
+ airworthiness directives, the applicable air regulations and advisory circulars.
+ It is not intended to be a guide of basic flight instruction nor a training
+ manual.
 \end_layout
 
-\begin_layout Enumerate
-MORE FULLY ACQUAINT YOU WITH THE BASIC PERFORMANCE AND HANDLING CHARACTERISTICS
- OF THE AIRPLANE.
-\end_layout
+\end_inset
 
-\begin_layout Enumerate
-MORE FULLY EXPLAIN YOUR HIMAX'S OPERATION THAN IS PERMISSIBLE TO SET FORTH
- IN THE AIRPLANE FLIGHT MANUAL
+
 \end_layout
 
 \begin_layout Standard
@@ -331,7 +336,7 @@ Specifications
 
 \size footnotesize
 \begin_inset Tabular
-<lyxtabular version="3" rows="38" columns="2">
+<lyxtabular version="3" rows="37" columns="2">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="25col%">
 <column alignment="left" valignment="top" width="75col%">
@@ -342,7 +347,7 @@ Specifications
 \begin_layout Plain Layout
 
 \size footnotesize
-Manufacturer
+MANUFACTURER
 \end_layout
 
 \end_inset
@@ -366,7 +371,7 @@ BOSLUIS Aerospace
 \begin_layout Plain Layout
 
 \size footnotesize
-Manufacture date
+MANUFACTURE DATE
 \end_layout
 
 \end_inset
@@ -390,7 +395,7 @@ Manufacture date
 \begin_layout Plain Layout
 
 \size footnotesize
-Model
+MODEL
 \end_layout
 
 \end_inset
@@ -414,7 +419,7 @@ TEAM 1700R, HiMax
 \begin_layout Plain Layout
 
 \size footnotesize
-Serial 
+SERIAL 
 \end_layout
 
 \end_inset
@@ -438,7 +443,7 @@ Serial
 \begin_layout Plain Layout
 
 \size footnotesize
-Empty / Gross weight 
+EMPTY / GROSS WEIGHT 
 \end_layout
 
 \end_inset
@@ -476,7 +481,7 @@ On Condition: Can be raised to 268 kg (590 Lbs if U/C reinforcement mod
 \begin_layout Plain Layout
 
 \size footnotesize
-Useful load 
+USEFUL LOAD 
 \end_layout
 
 \end_inset
@@ -500,7 +505,7 @@ Useful load
 \begin_layout Plain Layout
 
 \size footnotesize
-Payload (full fuel) 
+PAYLOAD (FULL FUEL) 
 \end_layout
 
 \end_inset
@@ -524,7 +529,7 @@ Payload (full fuel)
 \begin_layout Plain Layout
 
 \size footnotesize
-Engine 
+ENGINE 
 \end_layout
 
 \end_inset
@@ -548,7 +553,7 @@ Rotax 503 UL DCDI(37 kW)
 \begin_layout Plain Layout
 
 \size footnotesize
-RPM max 
+RPM MAX 
 \end_layout
 
 \end_inset
@@ -572,7 +577,7 @@ RPM max
 \begin_layout Plain Layout
 
 \size footnotesize
-CHT max 
+CHT MAX 
 \end_layout
 
 \end_inset
@@ -596,7 +601,7 @@ CHT max
 \begin_layout Plain Layout
 
 \size footnotesize
-EGT max
+EGT MAX
 \end_layout
 
 \end_inset
@@ -620,7 +625,7 @@ EGT max
 \begin_layout Plain Layout
 
 \size footnotesize
-Oil capacity 
+OIL CAPACITY 
 \end_layout
 
 \end_inset
@@ -644,7 +649,7 @@ Oil capacity
 \begin_layout Plain Layout
 
 \size footnotesize
-Oil pressure range 
+OIL PRESSURE RANGE 
 \end_layout
 
 \end_inset
@@ -668,7 +673,7 @@ Oil pressure range
 \begin_layout Plain Layout
 
 \size footnotesize
-Oil temperature 
+OIL TEMPERATURE 
 \end_layout
 
 \end_inset
@@ -692,7 +697,7 @@ max 118 ºC ?
 \begin_layout Plain Layout
 
 \size footnotesize
-Fuel pressure range 
+FUEL PRESSURE RANGE 
 \end_layout
 
 \end_inset
@@ -716,7 +721,7 @@ Fuel pressure range
 \begin_layout Plain Layout
 
 \size footnotesize
-Induction 
+INDUCTION 
 \end_layout
 
 \end_inset
@@ -740,7 +745,7 @@ Induction
 \begin_layout Plain Layout
 
 \size footnotesize
-Propeller 
+PROPELLER 
 \end_layout
 
 \end_inset
@@ -764,7 +769,7 @@ Bolly Optima Series 3
 \begin_layout Plain Layout
 
 \size footnotesize
-Tires 
+TIRES 
 \end_layout
 
 \end_inset
@@ -788,7 +793,7 @@ Tires
 \begin_layout Plain Layout
 
 \size footnotesize
-Airfoil 
+AIRFOIL 
 \end_layout
 
 \end_inset
@@ -812,7 +817,7 @@ Clark-Y (Modified)
 \begin_layout Plain Layout
 
 \size footnotesize
-Wingspan 
+WINGSPAN 
 \end_layout
 
 \end_inset
@@ -836,7 +841,7 @@ Wingspan
 \begin_layout Plain Layout
 
 \size footnotesize
-Wing area 
+WING AREA 
 \end_layout
 
 \end_inset
@@ -860,7 +865,7 @@ Wing area
 \begin_layout Plain Layout
 
 \size footnotesize
-Wing loading 
+WING LOADING 
 \end_layout
 
 \end_inset
@@ -884,7 +889,7 @@ Wing loading
 \begin_layout Plain Layout
 
 \size footnotesize
-Power loading 
+POWER LOADING 
 \end_layout
 
 \end_inset
@@ -908,7 +913,7 @@ Power loading
 \begin_layout Plain Layout
 
 \size footnotesize
-Length 
+LENGTH 
 \end_layout
 
 \end_inset
@@ -932,7 +937,7 @@ Length
 \begin_layout Plain Layout
 
 \size footnotesize
-Height 
+HEIGHT 
 \end_layout
 
 \end_inset
@@ -956,7 +961,7 @@ Height
 \begin_layout Plain Layout
 
 \size footnotesize
-Wheelbase 
+WHEELBASE 
 \end_layout
 
 \end_inset
@@ -980,31 +985,7 @@ Wheelbase
 \begin_layout Plain Layout
 
 \size footnotesize
-G limit @ 290 kg 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-+3.8 g 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size footnotesize
-G limit @ 255 kg 
+G LIMIT (255 KG)
 \end_layout
 
 \end_inset
@@ -1028,7 +1009,7 @@ G limit @ 255 kg
 \begin_layout Plain Layout
 
 \size footnotesize
-Fuel Capacity 
+FUEL CAPACITY 
 \end_layout
 
 \end_inset
@@ -1052,7 +1033,7 @@ Fuel Capacity
 \begin_layout Plain Layout
 
 \size footnotesize
-Fuel Flow (@ 75%) 
+FUEL FLOW
 \end_layout
 
 \end_inset
@@ -1082,7 +1063,7 @@ Fuel Flow (@ 75%)
 \begin_layout Plain Layout
 
 \size footnotesize
-Takeoff Distance 
+TAKEOFF DISTANCE 
 \end_layout
 
 \end_inset
@@ -1106,7 +1087,7 @@ Takeoff Distance
 \begin_layout Plain Layout
 
 \size footnotesize
-Landing Distance 
+LANDING DISTANCE 
 \end_layout
 
 \end_inset
@@ -1130,7 +1111,7 @@ Landing Distance
 \begin_layout Plain Layout
 
 \size footnotesize
-Rate of Climb 
+RATE OF CLIMB 
 \end_layout
 
 \end_inset
@@ -1154,7 +1135,7 @@ Rate of Climb
 \begin_layout Plain Layout
 
 \size footnotesize
-Ceiling 
+CEILING 
 \end_layout
 
 \end_inset
@@ -1178,7 +1159,7 @@ Ceiling
 \begin_layout Plain Layout
 
 \size footnotesize
-Range 
+RANGE 
 \end_layout
 
 \end_inset
@@ -1208,7 +1189,7 @@ Range
 \begin_layout Plain Layout
 
 \size footnotesize
-Service Ceiling 
+SERVICE CEILING 
 \end_layout
 
 \end_inset
@@ -1232,7 +1213,7 @@ Service Ceiling
 \begin_layout Plain Layout
 
 \size footnotesize
-Baggage 
+BAGGAGE 
 \end_layout
 
 \end_inset
@@ -1256,7 +1237,7 @@ Baggage
 \begin_layout Plain Layout
 
 \size footnotesize
-Baggage volume 
+BAGGAGE VOLUME 
 \end_layout
 
 \end_inset
