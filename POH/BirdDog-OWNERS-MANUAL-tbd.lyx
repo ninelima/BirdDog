@@ -9,6 +9,13 @@
 \usepackage{chngcntr}
 \counterwithin*{section}{part}
 \usepackage[none]{hyphenat}
+
+% Default for fancy
+% \fancyhead[LE,RO]{\slshape \rightmark}
+% \fancyhead[LO,RE]{\slshape \leftmark}
+% \fancyfoot[C]{\thepage}
+% \headrulewidth 0.4pt
+% \footrulewidth 0 pt
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
