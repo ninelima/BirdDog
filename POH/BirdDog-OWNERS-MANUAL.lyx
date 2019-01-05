@@ -25,7 +25,7 @@ Counter section
          Within               part
 End 
 \end_local_layout
-\language australian
+\language english
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -77,7 +77,7 @@ End
 \end_index
 \topmargin 10pheight%
 \secnumdepth 3
-\tocdepth 3
+\tocdepth 0
 \paragraph_separation skip
 \defskip smallskip
 \is_math_indent 0
@@ -2380,7 +2380,7 @@ Wings are of two spar construction, with a plywood D-section leading edge,
 \end_layout
 
 \begin_layout Standard
-The main wings use a ???% Clark-Y series airfoil.
+The main wings use a modified 14% Clark-Y series airfoil.
 \end_layout
 
 \begin_layout Standard
@@ -3506,18 +3506,10 @@ Take-Offs Climbs and Stalls
 After the take-off has proceeded to the point where a landing can no longer
  be made in event of power failure, the flap, if used, can be retracted.
  The throttle should be brought back to climbing power of 6000 RPM.
- The best rate of climb is obtained at 43 kts V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-x
-\end_layout
-
-\end_inset
-
-.
+ The best rate of climb is obtained at 40 kts (Vy).
  All controls are effective at speeds down through the stalling speed and
  stalls are gentle and easily controlled.
+ 
 \end_layout
 
 \begin_layout Subsection*
@@ -3646,7 +3638,7 @@ Take Off:
 
 \begin_layout Plain Layout
 6.
- Max rate climb at 40 kts (Vx).
+ Max rate climb at 40 kts (Vy).
  
 \end_layout
 
@@ -3673,9 +3665,9 @@ The cruising speed of the HiMax is determined by many factors including
 
 \begin_layout Standard
 The normal recommended economy cruising power setting of the HiMax is at
- 6,500 RPM.
+ 6,500 RPM(6500 is max continuous) (5000 is 75%?).
  At 7,500 feet this gives a True Air Speed of ?? kts.
- This power setting is obtained under standard conditions at 7,500 RPM.
+ This power setting produces 65%??? power obtained under standard conditions.
  Fuel consumption is about ?? liters per hour.
 \end_layout
 
@@ -3728,7 +3720,7 @@ During the approach, the first stage of flap can be lowered at speeds under
  52 kts, preferably on the downwind leg.
  Flaps should be lowered in final approach at an airspeed under 52 kts and
  the airplane trimmed to a gliding speed of 39 kts.
- Normally about ???? RPM should be maintained to give a reasonable approach
+ Normally about ??? RPM should be maintained to give a reasonable approach
  angle.
  
 \end_layout
@@ -3974,7 +3966,7 @@ EMERGENCY DESCENT
 If an immediate, rapid descent is required from altitude, roll the airplane
  into 45 degrees of bank or more (60-70 degrees desired) and apply 2-3 G's
  while simultaneously reducing the power to idle.
- Maintain a maximum of maneuvering speed (120 kts) during the spiral descent.
+ Maintain a maximum of maneuvering speed (63 kts) during the spiral descent.
  The propeller will provide some drag at idle power.
  Operating at or near Cl
 \begin_inset script subscript
@@ -3987,7 +3979,7 @@ max
 
  will increase induced drag and assist with increasing descent rate and
  controlling airspeed.
- If practical, slow below 85 kts, lower full flaps and maintain 2 to 2.5
+ If practical, slow below 52 kts, lower full flaps and maintain 2 to 2.5
  g maximum, or buffet onset, whichever occurs first.
 \end_layout
 
@@ -4008,7 +4000,7 @@ Retard throttle
 \end_layout
 
 \begin_layout Enumerate
-Reduce airspeed to 90 kts or less
+Reduce airspeed to 52 kts or less
 \end_layout
 
 \begin_layout Enumerate
@@ -4075,14 +4067,14 @@ Learn to trim the airplane for take-off so that only a very light back pressure
 \end_layout
 
 \begin_layout Enumerate
-The best speed for take-off is at about ?? kts under normal conditions.
+The best speed for take-off is at about 30 kts under normal conditions.
  Trying to pull the airplane off the ground at too low an airspeed decreases
  the controllability of the airplane in event of engine failure.
  
 \end_layout
 
 \begin_layout Enumerate
-The flaps may be lowered at airspeeds up to ?? kts.
+The flaps may be lowered at airspeeds up to 52 kts.
  To reduce flap operating loads, however, it is desirable to have the airplane
  at a slower speed before extending the flaps.
 \end_layout
@@ -4769,8 +4761,7 @@ Standard atmosphere
 \end_layout
 
 \begin_layout Section
-II.
- Power Charts
+Power Charts
 \end_layout
 
 \begin_layout Standard
@@ -5009,42 +5000,6 @@ Aviation grade 100LL octane or automotive at least RON 90 should be used
  in the HiMax.
  The use of lower grades of fuel can cause serious engine damage in a very
  short period of time.
-\end_layout
-
-\begin_layout Standard
-The oil capacity of the Rotax 503 engine is ??? liters.
- It is recommended that engine oil be changed every 25 flying hours or sooner
- under unfavorable conditions.
- The minimum safe quantity of oil required is ? liters.
- The following grades are required for the specified temperatures:
-\end_layout
-
-\begin_layout Standard
-Temperatures above 15 °C
-\end_layout
-
-\begin_layout Standard
-Temperatures between 0 °C and 30 °C
-\end_layout
-
-\begin_layout Standard
-Temperatures between -30 C and 20 °C
-\end_layout
-
-\begin_layout Standard
-Temperatures below 30 °C SAE 50
-\end_layout
-
-\begin_layout Standard
-SAE 40
-\end_layout
-
-\begin_layout Standard
-SAE 30
-\end_layout
-
-\begin_layout Standard
-SAE 20
 \end_layout
 
 \begin_layout Standard
@@ -6162,26 +6117,6 @@ Loading Sheet
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-For all TEAM aircraft, the C.G.
- should be between 11.3 and 16.2 inches, or 21-30%.
- 
-\end_layout
-
-\begin_layout Plain Layout
-Optimum flight characteristics have been obtained with the C.G.
- at approximately 28-29%.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Make: TEAM
 \end_layout
 
@@ -6190,12 +6125,12 @@ Model: HiMax
 \end_layout
 
 \begin_layout Standard
-Serial Number: ?????
+Serial Number: 7600
 \end_layout
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="2">
+<lyxtabular version="3" rows="9" columns="2">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="60col%">
@@ -6233,7 +6168,7 @@ Design CG Range:
 \begin_inset Text
 
 \begin_layout Plain Layout
-21% to 30% of wing cord (?? to ?? cm aft of Datum)
+21% to 30% of wing cord (28.7 to 41.1 cm aft of Datum)
 \end_layout
 
 \end_inset
@@ -6273,7 +6208,7 @@ Main wheel right:
 \begin_inset Text
 
 \begin_layout Plain Layout
-nnn? cm aft of Datum
+??? cm aft of Datum
 \end_layout
 
 \end_inset
@@ -6293,7 +6228,7 @@ Main wheel left:
 \begin_inset Text
 
 \begin_layout Plain Layout
-nnn? cm aft of Datum
+??? cm aft of Datum
 \end_layout
 
 \end_inset
@@ -6313,7 +6248,7 @@ Tail Wheel:
 \begin_inset Text
 
 \begin_layout Plain Layout
-nnn? cm aft of Datum
+??? cm aft of Datum
 \end_layout
 
 \end_inset
@@ -6360,31 +6295,11 @@ Pilot:
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Aft Baggage Floor:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-??? cm aft of Datum
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Aft Baggage:
 \end_layout
 
 \end_inset
@@ -6393,7 +6308,7 @@ Aft Baggage Floor:
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+??? cm aft of Datum
 \end_layout
 
 \end_inset
@@ -6404,6 +6319,11 @@ Aft Baggage Floor:
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Note: Optimum flight characteristics have been obtained with the C.G.
+ at approximately 28-29%
 \end_layout
 
 \begin_layout Standard
@@ -6914,22 +6834,65 @@ WEIGHT AND BALANCE
 \end_layout
 
 \begin_layout Standard
-Once your TEAM aircraft is fully assembled for the first time, the initial
- order of business (before flying) must be to determine the weight and balance
+Once your aircraft is fully assembled for the first time, the initial order
+ of business (before flying) must be to determine the weight and balance
  of the aircraft.
  
 \end_layout
 
 \begin_layout Standard
-This is not just an academic exercise - the location of the center of gravity
- is critical to the handling of the aircraft.
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="10col%">
+<column alignment="left" valignment="top" width="80col%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename warning-146916_1280.png
+	lyxscale 3
+	scale 3
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The location of the center of gravity is critical to the handling of the
+ aircraft.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The process is very simple, if you have access to a couple of accurate scales
  which will measure up to about half the aircraft weight each.
  
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
@@ -7018,13 +6981,21 @@ The answer will be the distance in inches from the wing leading edge to
 
 \begin_layout Enumerate
 To find the C.G.
- in percent of the wing chord, divide this answer by the chord (54 inches).
+ in percent of the wing chord, divide this answer by the chord 137 cm (54
+\begin_inset Quotes erd
+\end_inset
+
+ inches).
  
 \end_layout
 
 \begin_layout Standard
 For all TEAM aircraft, the C.G.
- should be between 28.7 and 41.1cm (11.3 and 16.2
+ should be between 28.7 and 41.1 cm (11.3
+\begin_inset Quotes erd
+\end_inset
+
+ and 16.2
 \begin_inset Quotes erd
 \end_inset
 
